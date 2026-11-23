@@ -1,0 +1,3470 @@
+% ============================================================================
+% Bibliography for: A Survey on Unified Multimodal Models for
+%                    Audio-Video Understanding and Generation
+% ============================================================================
+
+% ============================================================================
+% FOUNDATIONAL: Diffusion Models, Flow Matching, VAE
+% ============================================================================
+
+@inproceedings{ho2020ddpm,
+  title={Denoising Diffusion Probabilistic Models},
+  author={Ho, Jonathan and Jain, Ajay and Abbeel, Pieter},
+  booktitle={NeurIPS},
+  year={2020},
+  pages={6840--6851},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{song2021scorebased,
+  title={Score-Based Generative Modeling through Stochastic Differential Equations},
+  author={Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben},
+  booktitle={ICLR},
+  year={2021}
+}
+
+@inproceedings{sohl2015thermo,
+  title={Deep Unsupervised Learning using Nonequilibrium Thermodynamics},
+  author={Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya},
+  booktitle={ICML},
+  year={2015},
+  pages={2256--2265},
+  publisher={PMLR},
+  address={Lille, France}
+}
+
+@inproceedings{song2021ddim,
+  title={Denoising Diffusion Implicit Models},
+  author={Song, Jiaming and Meng, Chenlin and Ermon, Stefano},
+  booktitle={ICLR},
+  year={2021}
+}
+
+@misc{ho2022cfg,
+  title={Classifier-Free Diffusion Guidance},
+  author={Ho, Jonathan and Salimans, Tim},
+  eprint={2207.12598},
+  archivePrefix={arXiv},
+  year={2022}
+}
+
+@inproceedings{lipman2023flow,
+  title={Flow Matching for Generative Modeling},
+  author={Lipman, Yaron and Chen, Ricky T. Q. and Ben-Hamu, Heli and Nickel, Maximilian and Le, Matthew},
+  booktitle={ICLR},
+  year={2023},
+  url={https://openreview.net/forum?id=PqvMRDCJT9t},
+}
+
+@inproceedings{liu2023rectifiedflow,
+  title={Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow},
+  author={Liu, Xingchao and Gong, Chengyue and Liu, Qiang},
+  booktitle={ICLR},
+  year={2023},
+}
+
+@inproceedings{kingma2014vae,
+  title={Auto-Encoding Variational {Bayes}},
+  author={Kingma, Diederik P and Welling, Max},
+  booktitle={ICLR},
+  year={2014}
+}
+
+@inproceedings{chen2018neuralode,
+  title={Neural Ordinary Differential Equations},
+  author={Chen, Ricky T. Q. and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David K},
+  booktitle={NeurIPS},
+  year={2018},
+  pages={6571--6583},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{rombach2022ldm,
+  title={High-Resolution Image Synthesis with Latent Diffusion Models},
+  author={Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\"o}rn},
+  booktitle={CVPR},
+  year={2022},
+  pages={10674--10685},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  doi={10.1109/CVPR52688.2022.01042},
+}
+
+@inproceedings{saharia2022imagen,
+  title={Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding},
+  author={Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang, Jay and Denton, Emily L and others},
+  booktitle={NeurIPS},
+  year={2022},
+  pages={36479--36494},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+% ============================================================================
+% DiT / MMDiT / Transformer Architectures
+% ============================================================================
+
+@inproceedings{peebles2023dit,
+  title={Scalable Diffusion Models with Transformers},
+  author={Peebles, William and Xie, Saining},
+  booktitle={ICCV},
+  year={2023},
+  pages={4172--4182},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{ma2024sit,
+  title={{SiT}: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers},
+  booktitle={ECCV},
+  author={Nanye Ma and Mark Goldstein and Michael S. Albergo and Nicholas M. Boffi and Eric Vanden-Eijnden and Saining Xie},
+  year={2024}
+}
+
+@misc{esser2024sd3,
+  title={Scaling Rectified Flow Transformers for High-Resolution Image Synthesis},
+  author={Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\"u}ller, Jonas and Saini, Harry and others},
+  eprint={2403.03206},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{flux2024,
+  title={{FLUX.1}},
+  author={{Black Forest Labs}},
+  year={2024},
+  howpublished={Model weights and inference code, \url{https://github.com/black-forest-labs/flux}}
+}
+
+@inproceedings{dosovitskiy2021vit,
+  title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author={Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and others},
+  booktitle={ICLR},
+  year={2021}
+}
+
+@inproceedings{ronneberger2015unet,
+  title={U-Net: Convolutional Networks for Biomedical Image Segmentation},
+  author={Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
+  booktitle={MICCAI},
+  year={2015},
+  pages={234--241},
+  publisher={Springer},
+  address={Cham, Switzerland},
+  doi={10.1007/978-3-319-24574-4_28},
+}
+
+% ============================================================================
+% Audio Representations / Codecs / Tokenizers
+% ============================================================================
+@misc{unicodec,
+  title={{UniCodec}: Unified Audio Codec with Single Domain-Adaptive Codebook},
+  author={Jiang, Yidi and Chen, Qian and Ji, Shengpeng and Xi, Yu and Wang, Wen and Zhang, Chong and Yue, Xianghu and Zhang, ShiLiang and Li, Haizhou},
+  eprint={2502.20067},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{ji2024wavtokenizer,
+  title={Wavtokenizer: an efficient acoustic discrete codec tokenizer for audio language modeling},
+  booktitle={ICLR},
+  author={Ji, Shengpeng and Jiang, Ziyue and Wang, Wen and Chen, Yifu and Fang, Minghui and Zuo, Jialong and Yang, Qian and Cheng, Xize and Wang, Zehan and Li, Ruiqi and others},
+  year={2025}
+}
+
+@inproceedings{ji2024language,
+  title={{Language-Codec}: Bridging Discrete Codec Representations and Speech Language Models},
+  author={Ji, Shengpeng and Fang, Minghui and Zuo, Jialong and Jiang, Ziyue and Wang, Dingdong and Wang, Hanting and Huang, Hai and Zhao, Zhou},
+  year={2025},
+  booktitle={ACL},
+  pages={13332--13345},
+  doi={10.18653/v1/2025.acl-long.654},
+}
+
+@misc{oord2016wavenet,
+  title={{WaveNet}: A Generative Model for Raw Audio},
+  author={van den Oord, A{\"a}ron and Dieleman, Sander and Zen, Heiga and Simonyan, Karen and Vinyals, Oriol and Graves, Alex and others},
+  eprint={1609.03499},
+  archivePrefix={arXiv},
+  year={2016}
+}
+
+@inproceedings{mehri2017samplernn,
+  title={{SampleRNN}: An Unconditional End-to-End Neural Audio Generation Model},
+  author={Mehri, Soroush and Kumar, Kundan and Gulrajani, Ishaan and Kumar, Rithesh and Jain, Shubham and Sotelo, Jose and others},
+  booktitle={ICLR},
+  year={2017},
+}
+
+@inproceedings{kong2020hifigan,
+  title={{HiFi-GAN}: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis},
+  author={Kong, Jungil and Kim, Jaehyeon and Bae, Jaekyoung},
+  booktitle={NeurIPS},
+  year={2020},
+  pages={17022--17033},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@misc{defossez2022encodec,
+  title={High Fidelity Neural Audio Compression},
+  author={D{\'e}fossez, Alexandre and Copet, Jade and Synnaeve, Gabriel and Adi, Yossi},
+  eprint={2210.13438},
+  archivePrefix={arXiv},
+  year={2022}
+}
+
+@inproceedings{kumar2024dac,
+  title={High-Fidelity Audio Compression with Improved {RVQGAN}},
+  author={Kumar, Rithesh and Seetharaman, Prem and Luebs, Alejandro and Kumar, Ishaan and Kumar, Kundan},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={27980--27993},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@article{zeghidour2022soundstream,
+  title={{SoundStream}: An End-to-End Neural Audio Codec},
+  author={Zeghidour, Neil and Luebs, Alejandro and Omran, Ahmed and Skoglund, Jan and Tagliasacchi, Marco},
+  year={2022},
+  journal={IEEE/ACM Trans. Audio, Speech, Language Process.},
+  volume={30},
+  pages={495--507},
+}
+
+@inproceedings{zhang2024speechtokenizer,
+  title={{SpeechTokenizer}: Unified Speech Tokenizer for Speech Language Models},
+  booktitle={ICLR},
+  author={Zhang, Xin and Zhang, Dong and Li, Shimin and Zhou, Yaqian and Qiu, Xipeng},
+  year={2024}
+}
+
+@article{hsu2021hubert,
+  title={{HuBERT}: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units},
+  author={Hsu, Wei-Ning and Bolte, Benjamin and Tsai, Yao-Hung Hubert and Lakhotia, Kushal and Salakhutdinov, Ruslan and Mohamed, Abdelrahman},
+  year={2021},
+  journal={IEEE/ACM Trans. Audio, Speech, Language Process.},
+  volume={29},
+  pages={3451--3460},
+}
+
+@misc{chung2021w2vbert,
+  title={{w2v-BERT}: Combining Contrastive Learning and Masked Language Modeling for Self-Supervised Speech Pre-Training},
+  author={Chung, Yu-An and Zhang, Yu and Han, Wei and Chiu, Chung-Cheng and Qin, James and Pang, Ruoming and Wu, Yonghui},
+  eprint={2108.06209},
+  archivePrefix={arXiv},
+  year={2021}
+}
+
+@inproceedings{chen2023beats,
+  title={{BEATs}: Audio Pre-Training with Acoustic Tokenizers},
+  author={Chen, Sanyuan and Wu, Yu and Wang, Chengyi and Liu, Shujie and Tompkins, Daniel and Chen, Zhuo and Che, Wanxiang and Yu, Xiangzhan and Wei, Furu},
+  booktitle={ICML},
+  year={2023},
+  pages={5178--5193},
+  publisher={PMLR},
+  address={Honolulu, Hawaii, USA},
+  url={https://proceedings.mlr.press/v202/chen23ag.html},
+}
+
+@article{borsos2023audiolm,
+  title={{AudioLM}: A Language Modeling Approach to Audio Generation},
+  author={Borsos, Zal{\'a}n and Marinier, Rapha{\"e}l and Vincent, Damien and others},
+  year={2023},
+  journal={IEEE/ACM Trans. Audio, Speech, Language Process.},
+  volume={31},
+  pages={2523--2533},
+  doi={10.1109/TASLP.2023.3288409},
+}
+
+@misc{wang2023valle,
+  title={{VALL-E}: Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers},
+  author={Wang, Chengyi and Chen, Sanyuan and Wu, Yu and others},
+  eprint={2301.02111},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{borsos2023soundstorm,
+  title={{SoundStorm}: Efficient Parallel Audio Generation},
+  author={Borsos, Zal{\'a}n and Sharifi, Matt and Vincent, Damien and Kharitonov, Eugene and Zeghidour, Neil and Tagliasacchi, Marco},
+  eprint={2305.09636},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{liu2023audioldm,
+  title={{AudioLDM}: Text-to-Audio Generation with Latent Diffusion Models},
+  author={Liu, Haohe and Chen, Zehua and Yuan, Yi and others},
+  booktitle={ICML},
+  year={2023},
+  pages={21450--21474},
+  publisher={PMLR},
+  address={Honolulu, Hawaii, USA},
+  url={https://proceedings.mlr.press/v202/liu23f.html},
+}
+
+% ============================================================================
+% Video Representations / Tokenizers
+% ============================================================================
+
+@inproceedings{vqvae2017,
+  title={Neural Discrete Representation Learning},
+  author={van den Oord, A{\"a}ron and Vinyals, Oriol and Kavukcuoglu, Koray},
+  booktitle={NeurIPS},
+  year={2017},
+  pages={6306--6315},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+  url={https://arxiv.org/abs/1711.00937},
+}
+
+@inproceedings{esser2021vqgan,
+  title={Taming Transformers for High-Resolution Image Synthesis},
+  author={Esser, Patrick and Rombach, Robin and Ommer, Bj{\"o}rn},
+  booktitle={CVPR},
+  year={2021},
+  pages={12868--12878},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  doi={10.1109/CVPR46437.2021.01268},
+}
+
+@inproceedings{yu2024magvit2,
+  title={Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation},
+  author={Yu, Lijun and Lezama, Jos{\'e} and Gundavarapu, Nitesh B and others},
+  booktitle={ICLR},
+  year={2024},
+  pages={765--783},
+  address={Vienna, Austria}
+}
+
+@misc{yan2021videogpt,
+  title={{VideoGPT}: Video Generation using {VQ-VAE} and Transformers},
+  author={Yan, Wilson and Zhang, Yunzhi and Abbeel, Pieter and Srinivas, Aravind},
+  year={2021},
+  eprint={2104.10157},
+  archivePrefix={arXiv}
+}
+
+@inproceedings{yang2024cogvideox,
+  title={{CogVideoX}: Text-to-Video Diffusion Models with An Expert Transformer},
+  booktitle={ICLR},
+  author={Yang, Zhuoyi and Teng, Jiayan and Zheng, Wendi and others},
+  year={2025}
+}
+
+@misc{agarwal2025cosmos,
+  title={Cosmos World Foundation Model Platform for Physical {AI}},
+  author={{NVIDIA} and Agarwal, Niket and others},
+  eprint={2501.03575},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{nvidia2026cosmos3,
+  title={Cosmos 3: Omnimodal World Models for Physical {AI}},
+  author={{NVIDIA} and others},
+  eprint={2606.02800},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@InProceedings{Xing_2025_ICCV,
+    author    = {Xing, Yazhou and Fei, Yang and He, Yingqing and Chen, Jingye and Xie, Jiaxin and Chi, Xiaowei and Chen, Qifeng},
+    title     = {{VideoVAE+}: Large Motion Video Autoencoding with Cross-modal Video {VAE}},
+    booktitle = {ICCV},
+    month     = {October},
+    year      = {2025},
+    pages={17951--17960},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{zhao2024cv,
+  title={Cv-vae: A compatible video vae for latent generative video models},
+  author={Zhao, Sijie and Zhang, Yong and Cun, Xiaodong and Yang, Shaoshu and Niu, Muyao and Li, Xiaoyu and Hu, Wenbo and Shan, Ying},
+  booktitle={NeurIPS},
+  volume={37},
+  pages={12847--12871},
+  year={2024},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@misc{tang2024vidtok,
+  title={Vidtok: A versatile and open-source video tokenizer},
+  author={Tang, Anni and He, Tianyu and Guo, Junliang and Cheng, Xinle and Song, Li and Bian, Jiang},
+  eprint={2412.13061},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{wang2024larp,
+  title={Larp: Tokenizing videos with a learned autoregressive generative prior},
+  booktitle={ICLR},
+  author={Wang, Hanyu and Suri, Saksham and Ren, Yixuan and Chen, Hao and Shrivastava, Abhinav},
+  year={2025}
+}
+
+@misc{li2025learning,
+  title={Learning adaptive and temporally causal video tokenization in a 1d latent space},
+  author={Li, Yan and Tian, Changyao and Xia, Renqiu and Liao, Ning and Guo, Weiwei and Yan, Junchi and Li, Hongsheng and Dai, Jifeng and Li, Hao and Yang, Xue},
+  eprint={2505.17011},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{videoflextok,
+    title={{VideoFlexTok}: Flexible-Length Coarse-to-Fine Video Tokenization},
+    author={Atanov, Andrei and Allardice, Jesse and Bachmann, Roman and Kar, O{\u{g}}uzhan Fatih and Hjelm, R Devon and Griffiths, David and Fu, Peter and Dehghani, Afshin and Zamir, Amir},
+    year={2026},
+  booktitle={ICML},
+  pages={4259--4282},
+  publisher={PMLR},
+  address={Seoul, South Korea},
+  url={https://proceedings.mlr.press/v306/atanov26a.html},
+}
+
+@inproceedings{
+ye2026infotok,
+title={{InfoTok}: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression},
+author={Haotian Ye and Qiyuan He and Jiaqi Han and others},
+booktitle={ICLR},
+year={2026},
+  pages={40047--40069},
+  address={Rio de Janeiro, Brazil}
+}
+
+@misc{bolya2025perception,
+  title={Perception encoder: The best visual embeddings are not at the output of the network},
+  author={Bolya, Daniel and Huang, Po-Yao and Sun, Peize and Cho, Jang Hyun and Madotto, Andrea and Wei, Chen and Ma, Tengyu and Zhi, Jiale and Rajasegaran, Jathushan and Rasheed, Hanoona and others},
+  eprint={2504.13181},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@article{vjepa,
+title={Revisiting Feature Prediction for Learning Visual Representations from Video},
+author={Adrien Bardes and Quentin Garrido and Jean Ponce and Xinlei Chen and Michael Rabbat and Yann LeCun and Mido Assran and Nicolas Ballas},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024}
+}
+
+@inproceedings{
+vljepa,
+title={{VL}-{JEPA}: Joint Embedding Predictive Architecture for Vision-language},
+author={Delong Chen and Mustafa Shukor and Th{\'e}o Moutakanni and Willy Chung and Lei Yu and Tejaswi Kasarla and Allen Bolourchi and Yann LeCun and Pascale Fung},
+booktitle={ICLR},
+year={2026},
+  pages={89791--89807},
+  address={Rio de Janeiro, Brazil}
+}
+
+@misc{vjepa2,
+  title={{V-JEPA}~2: Self-Supervised Video Models Enable Understanding, Prediction and Planning},
+  author={Assran, Mido and Bardes, Adrien and Fan, David and others},
+  eprint={2506.09985},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{mjepa,
+      title={{MJEPA}: A Simple and Scalable Joint-Embedding Predictive Architecture for Audio-Visual Learning}, 
+      author={Revant Teotia and Adrien Bardes and Michael Rabbat and Sumit Chopra and Matthew J. Muckley and Nicolas Ballas},
+      year={2026},
+      eprint={2606.25225},
+      archivePrefix={arXiv},
+}
+
+@misc{tschannen2025siglip,
+  title={Siglip 2: Multilingual vision-language encoders with improved semantic understanding, localization, and dense features},
+  author={Tschannen, Michael and Gritsenko, Alexey and Wang, Xiao and Naeem, Muhammad Ferjad and Alabdulmohsin, Ibrahim and Parthasarathy, Nikhil and Evans, Talfan and Beyer, Lucas and Xia, Ye and Mustafa, Basil and others},
+  eprint={2502.14786},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+
+@inproceedings{chen2024internvl,
+  title={{InternVL}: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks},
+  author={Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang, Qinglong and Zhu, Xizhou and Lu, Lewei and Li, Bin and Luo, Ping and Lu, Tong and Qiao, Yu and Dai, Jifeng},
+  booktitle={CVPR},
+  pages={24185--24198},
+  year={2024},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+% ============================================================================
+% Video-to-Audio (V2A) Generation
+% ============================================================================
+@inproceedings{lin2025vmas,
+  title={Vmas: Video-to-music generation via semantic alignment in web music videos},
+  author={Lin, Yan-Bo and Tian, Yu and Yang, Linjie and Bertasius, Gedas and Wang, Heng},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={1155--1165},
+  year={2025},
+  organization={IEEE},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{iashin2021specvqgan,
+  title={Taming Visually Guided Sound Generation},
+  author={Iashin, Vladimir and Rahtu, Esa},
+  booktitle={BMVC},
+  year={2021},
+  publisher={BMVA Press}
+}
+
+@inproceedings{sheffer2023im2wav,
+  title={I Hear Your True Colors: Image Guided Audio Generation},
+  author={Sheffer, Roy and Adi, Yossi},
+  year={2023},
+  booktitle={ICASSP},
+  pages={1--5},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@inproceedings{luo2024diff_foley,
+  title={{Diff-Foley}: Synchronized Video-to-Audio Synthesis with Latent Diffusion Models},
+  author={Luo, Simian and Yan, Chuanhao and Hu, Chenxu and Zhao, Hang},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={48855--48876},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@misc{foleycrafter2024,
+  title={{FoleyCrafter}: Bring Silent Videos to Life with Lifelike and Synchronized Sounds},
+  author={Zhang, Yiming and Gu, Yicheng and Zeng, Yanhong and Xing, Zhening and Wang, Yuancheng and Wu, Zhizheng and Chen, Kai},
+  eprint={2407.01494},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{mmaudio2024,
+  title={{MMAudio}: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis},
+  booktitle={CVPR},
+  author={Cheng, Ho Kei and Ishii, Masato and Hayakawa, Akio and Shibuya, Takashi and Schwing, Alexander and Mitsufuji, Yuki},
+  year={2025},
+  pages={28901--28911},
+  publisher={IEEE},
+  url={https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_MMAudio_Taming_Multimodal_Joint_Training_for_High-Quality_Video-to-Audio_Synthesis_CVPR_2025_paper.html}
+}
+
+@inproceedings{sonicvisionlm2024,
+  title={{SonicVisionLM}: Playing Sound with Vision Language Models},
+  author={Xie, Zhifeng and Yu, Shengye and He, Qile and Li, Mengtian},
+  booktitle={CVPR},
+  year={2024},
+  pages={26856--26865},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{rewas2024,
+  title={Read, Watch and Scream! Sound Generation from Text and Video},
+  booktitle={AAAI},
+  author={Jeong, Yujin and Kim, Yunji and Chun, Sanghyuk and Lee, Jiyoung},
+  year={2025}
+}
+
+@InProceedings{v-aura,
+  title={Temporally aligned audio for video with autoregression},
+  author={Viertola, Ilpo and Iashin, Vladimir and Rahtu, Esa},
+  booktitle={ICASSP},
+  year={2025},
+  organization={IEEE},
+  pages={1--5},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@InProceedings{vintage,
+    author    = {Kushwaha, Saksham Singh and Tian, Yapeng},
+    title     = {{VinTAGe}: Joint Video and Text Conditioning for Holistic Audio Generation},
+    booktitle = {CVPR},
+    month     = {June},
+    year      = {2025},
+    pages={13529--13539},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+% ============================================================================
+% Audio-to-Video (A2V) Generation
+% ============================================================================
+@inproceedings{wang2025choreomuse,
+  title={Choreomuse: Robust music-to-dance video generation with style transfer and beat-adherent motion},
+  author={Wang, Xuanchen and Wang, Heng and Cai, Weidong},
+  booktitle={ACM MM},
+  pages={7912--7921},
+  year={2025},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA},
+}
+
+@inproceedings{spa2v2024,
+  title={{SpA2V}: Harnessing Spatial Auditory Cues for Audio-driven Spatially-aware Video Generation},
+  author={Pham, Kien T. and He, Yingqing and Xing, Yazhou and Chen, Qifeng and Chen, Long},
+  booktitle={ACM MM},
+  year={2025},
+  pages={10476--10485},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA}
+}
+
+
+@misc{tpos2024,
+  title={The Power of Sound ({TPoS}): Audio Reactive Video Generation with Stable Diffusion},
+  author={Jeong, Yujin and Ryoo, Wonjeong and Lee, Seunghyun and Seo, Dabin and Byeon, Wonmin and Kim, Sangpil and Kim, Jinkyu},
+  eprint={2309.04509},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{tempotoken,
+  title={Diverse and Aligned Audio-to-Video Generation via Text-to-Video Model Adaptation},
+  author={Yariv, Guy and Gat, Itai and Benaim, Sagie and Wolf, Lior and Schwartz, Idan and Adi, Yossi},
+  booktitle={AAAI},
+  volume={38},
+  year={2024},
+  pages={6639--6647},
+  publisher={AAAI Press},
+  address={Washington, DC, USA},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/28486},
+  doi={10.1609/aaai.v38i7.28486}
+}
+
+@inproceedings{sound2sight,
+    author={Cherian, Anoop and Chatterjee, Moitreya and Ahuja, Narendra},
+    title = {{Sound2Sight}: Generating Visual Dynamics from Sound and Context},
+    booktitle = {ECCV},
+    year = {2020},
+    pages={701--719},
+    organization={Springer},
+  publisher={Springer},
+  address={Cham, Switzerland},
+  doi={10.1007/978-3-030-58583-9_42},
+}
+
+@InProceedings{seeing-and-hearing,
+    author    = {Xing, Yazhou and He, Yingqing and Tian, Zeyue and Wang, Xintao and Chen, Qifeng},
+    title     = {Seeing and Hearing: Open-domain Visual-Audio Generation with Diffusion Latent Aligners},
+    booktitle = {CVPR},
+    month     = {June},
+    year      = {2024},
+    pages={7151--7161},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+
+
+
+@inproceedings{zhang2023sadtalker,
+  title={{SadTalker}: Learning Realistic {3D} Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation},
+  author={Zhang, Wenxuan and Cun, Xiaodong and Wang, Xuan and Zhang, Yong and Shen, Xi and Guo, Yu and Shan, Ying and Wang, Fei},
+  booktitle={CVPR},
+  year={2023},
+  pages={8652--8661},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{wei2024aniportrait,
+  title={{AniPortrait}: Audio-Driven Synthesis of Photorealistic Portrait Animation},
+  author={Wei, Huawei and Yang, Zejun and Wang, Zhisheng},
+  eprint={2403.17694},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{xu2024hallo,
+  title={Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation},
+  author={Xu, Mingwang and others},
+  eprint={2406.08801},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{tian2024emo,
+  title={{EMO}: Emote Portrait Alive -- Generating Expressive Portrait Videos with {Audio2Video} Diffusion Model under Weak Conditions},
+  author={Tian, Linrui and Wang, Qi and Zhang, Bang and Bo, Liefeng},
+  eprint={2402.17485},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{wang2024vexpress,
+  title={{V-Express}: Conditional Dropout for Progressive Training of Portrait Video Generation},
+  author={Wang, Cong and others},
+  eprint={2406.02511},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+% ============================================================================
+% Joint Audio-Video Generation
+% ============================================================================
+@misc{openai2024sora,
+  title={Video Generation Models as World Simulators},
+  author={{OpenAI}},
+  year={2024},
+  howpublished={OpenAI technical report, \url{https://openai.com/index/video-generation-models-as-world-simulators/}}
+}
+
+@misc{pixverse5p5,
+  author = {Eachlabs},
+  title = {{PixVerse} v5.5: Smarter Video Generation, Better Results},
+  year = {2025},
+  url = {https://www.eachlabs.ai/blog/pixverse-v5-5-smarter-video-generation-better-results},
+  note = {Accessed: 2026-04-19}
+}
+
+@misc{kling2p6,
+  author={{Kuaishou Technology}},
+  title={{Kling AI} Launches Video 2.6 Model with Simultaneous Audio-Visual Generation Capability},
+  year={2025},
+  url={https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-video-26-model-simultaneous-audio-visual/},
+}
+
+
+@misc{veo3p1,
+  author = {{Google DeepMind}},
+  title = {Veo 3.1: Video Generation with Native Audio},
+  year = {2025},
+  howpublished = {\url{https://deepmind.google/models/veo/}},
+  note = {Accessed 2026-08-15}
+}
+
+@inproceedings{uniavgen2024,
+  title={{UniAVGen}: Unified Audio and Video Generation with Asymmetric Cross-Modal Interactions},
+  booktitle={CVPR},
+  author={Zhang, Guozhen and Zhou, Zixiang and Hu, Teng and Peng, Ziqiao and Zhang, Youliang and Chen, Yi and Zhou, Yuan and Lu, Qinglin and Wang, Limin},
+  year={2026}
+}
+
+@inproceedings{liu2025javisgpt,
+    title={{JavisGPT}: A Unified Multi-modal {LLM} for Sounding-Video Comprehension and Generation},
+    author={Liu, Kai and Li, Jungang and Sun, Yuchong and others},
+    booktitle={NeurIPS},
+    year={2025},
+  pages={157890--157925},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@inproceedings{jarvisdit2024,
+  title={{JavisDiT}: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization},
+  author={Liu, Kai and Li, Wei and Chen, Lai and Wu, Shengqiong and Zheng, Yanhao and Ji, Jiayi and Zhou, Fan and Luo, Jiebo and Liu, Ziwei and Fei, Hao and Chua, Tat-Seng},
+  booktitle={ICLR},
+  year={2026}
+}
+
+@inproceedings{javisditpp,
+  title={{JavisDiT++}: Unified Modeling and Optimization for Joint Audio-Video Generation},
+  author={Liu, Kai and Zheng, Yanhao and Wang, Kai and Wu, Shengqiong and Zhang, Rongjunchen and Luo, Jiebo and Hatzinakos, Dimitrios and Liu, Ziwei and Fei, Hao and Chua, Tat-Seng},
+  booktitle={ICLR},
+  year={2026},
+  address={Rio de Janeiro, Brazil},
+  pages={150592--150618}
+}
+
+
+@inproceedings{tang2023codi,
+  title={{Any-to-Any} Generation via Composable Diffusion},
+  author={Tang, Zineng and Yang, Ziyi and Zhu, Chenguang and Zeng, Michael and Bansal, Mohit},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={16083--16099},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@misc{tang2024codi2,
+  title={{CoDi-2}: In-Context, Interleaved, and Interactive Any-to-Any Generation},
+  author={Tang, Zineng and others},
+  eprint={2311.18775},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+
+@misc{polyak2024moviegen,
+  title={Movie Gen: A Cast of Media Foundation Models},
+  author={Polyak, Adam and Zohar, Amit and Brown, Andrew and others},
+  eprint={2410.13720},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{ovi,
+      title={Ovi: Twin Backbone Cross-Modal Fusion for Audio-Video Generation}, 
+      author={Chetwin Low and Weimin Wang and Calder Katyal},
+      year={2025},
+      eprint={2510.01284},
+      archivePrefix={arXiv},
+}
+
+@inproceedings{avdit, author = {Wang, Kai and Deng, Shijian and Shi, Jing and Hatzinakos, Dimitrios and Tian, Yapeng}, title = {{AV-DiT}: Taming Image Diffusion Transformers for Efficient Joint Audio and Video Generation}, year = {2025}, isbn = {9798400720352}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3746027.3755713}, doi = {10.1145/3746027.3755713}, abstract = {Recent Diffusion Transformers (DiTs) have shown impressive capabilities in generating single-modality content, including images, videos, and audio. However, the potential of DiTs to enable superb multimodal content creation remains underexplored. To bridge this gap, we introduce AV-DiT, a novel and efficient audio-visual diffusion transformer designed to generate high-quality, realistic videos with synchronized audio tracks. To minimize model complexity and computational costs, our AV-DiT utilizes a modality-shared DiT backbone pre-trained on image-only data, with only newly inserted adapters being trainable. This shared backbone facilitates the generation of both audio and video. Specifically, the video branch incorporates a trainable temporal attention layer into a pre-trained DiT block for capturing the temporal consistency for video generation. In addition, a small number of trainable parameters adapt the image-based DiT block to learn the acoustic characteristics for audio generation. An extra shared self-attention block reused from the DiT block, equipped with lightweight parameters, facilitates feature interaction between audio and visual modalities for alignment. Extensive experiments on the datasets demonstrate that our AV-DiT achieves state-of-the-art performance in joint audio-visual generation with significantly fewer tunable parameters. Furthermore, our results highlight that a single shared image generative backbone with modality-specific adaptations is sufficient for constructing a joint audio-video generator.}, booktitle = {ACM MM}, pages = {10486--10495}, numpages = {10}, keywords = {diffusion models, joint audio-video generation, multimodal learning, parameter-efficient generation}, location = {Dublin, Ireland}, series = {MM '25} }
+
+@misc{rflav,
+      title={$^R${FLAV}: Rolling Flow matching for infinite Audio Video generation}, 
+      author={Alex Ergasti and Giuseppe Gabriele Tarollo and Filippo Botti and Tomaso Fontanini and Claudio Ferrari and Massimo Bertozzi and Andrea Prati},
+      year={2025},
+      eprint={2503.08307},
+      archivePrefix={arXiv},
+}
+
+@misc{wan2p2,
+      title={Wan: Open and Advanced Large-Scale Video Generative Models}, 
+      author={{Team Wan}},
+      eprint={2503.20314},
+      archivePrefix={arXiv},
+      year={2025}
+}
+
+@misc{seed1p5pro,
+      title={Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model}, 
+      author={{Team Seedance}},
+      year={2025},
+      eprint={2512.13507},
+      archivePrefix={arXiv},
+}
+
+@misc{ltx2,
+      title={{LTX-2}: Efficient Joint Audio-Visual Foundation Model}, 
+      author={Yoav HaCohen and Benny Brazowski and Nisan Chiprut and others},
+      year={2026},
+      eprint={2601.03233},
+      archivePrefix={arXiv},
+}
+
+@misc{davinci-magihuman-2026,
+  title={Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model},
+  author={SII-GAIR and Sand. ai and Chern, Ethan and others},
+  eprint={2603.21986},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+% ============================================================================
+% ControlNet / Conditioning
+% ============================================================================
+@inproceedings{hu2022lora,
+  title={{LoRA}: Low-Rank Adaptation of Large Language Models},
+  author={Hu, Edward J. and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  booktitle={ICLR},
+  year={2022},
+  url={https://openreview.net/forum?id=nZeVKeeFYf9},
+}
+
+@inproceedings{zhang2023controlnet,
+  title={Adding Conditional Control to Text-to-Image Diffusion Models},
+  author={Zhang, Lvmin and Rao, Anyi and Agrawala, Maneesh},
+  booktitle={ICCV},
+  year={2023},
+  pages={3813--3824},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+% ============================================================================
+% Audio-Video Understanding: Tasks and Methods
+% ============================================================================
+
+@inproceedings{musicavqa2022,
+  title={Learning to Answer Questions in Dynamic Audio-Visual Scenarios},
+  author={Li, Guangyao and Wei, Yake and Tian, Yapeng and Xu, Chenliang and Wen, Ji-Rong and Hu, Di},
+  booktitle={CVPR},
+  year={2022},
+  pages={19086--19096},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{avsbench2022,
+  title={Audio-Visual Segmentation},
+  author={Zhou, Jinxing and Wang, Jianyuan and Zhang, Jiayi and Sun, Weixuan and Zhang, Jing and Birchfield, Stan and Guo, Dan and Kong, Lingpeng and Wang, Meng and Zhong, Yiran},
+  booktitle={ECCV},
+  year={2022},
+  pages={386--403},
+  publisher={Springer},
+  address={Cham, Switzerland}
+}
+
+@misc{avss2022,
+  title={Audio-Visual Segmentation with Semantics},
+  author={Zhou, Jinxing and Shen, Xuyang and Wang, Jianyuan and Zhang, Jiayi and Sun, Weixuan and Zhang, Jing and Birchfield, Stan and Guo, Dan and Kong, Lingpeng and Wang, Meng and Zhong, Yiran},
+  eprint={2301.13190},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+
+@inproceedings{arandjelovic2018objects,
+  title={Objects that Sound},
+  author={Arandjelovic, Relja and Zisserman, Andrew},
+  booktitle={ECCV},
+  year={2018},
+  pages={451--466},
+  publisher={Springer},
+  address={Cham, Switzerland}
+}
+
+@inproceedings{zhao2018sop,
+  title={The Sound of Pixels},
+  author={Zhao, Hang and Gan, Chuang and Rouditchenko, Andrew and Vondrick, Carl and McDermott, Josh and Torralba, Antonio},
+  booktitle={ECCV},
+  year={2018},
+  pages={587--604},
+  publisher={Springer},
+  address={Cham, Switzerland}
+}
+
+@inproceedings{zhao2019som,
+  title={The Sound of Motions},
+  author={Zhao, Hang and Gan, Chuang and Ma, Wei-Chiu and Torralba, Antonio},
+  booktitle={ICCV},
+  year={2019},
+  pages={1735--1744},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@inproceedings{chen2021lvs,
+  title={Localizing Visual Sounds the Hard Way},
+  author={Chen, Honglie and Xie, Weidi and Afouras, Triantafyllos and Nagrani, Arsha and Vedaldi, Andrea and Zisserman, Andrew},
+  booktitle={CVPR},
+  year={2021},
+  pages={16862--16871},
+  doi={10.1109/CVPR46437.2021.01659},
+}
+
+@inproceedings{mo2022slavc,
+  title={A Closer Look at Weakly-Supervised Audio-Visual Source Localization},
+  author={Mo, Shentong and Morgado, Pedro},
+  booktitle={NeurIPS},
+  year={2022},
+  doi={10.52202/068431-2720},
+}
+
+@inproceedings{mo2023avgn,
+  title={Audio-Visual Grouping Network for Sound Localization from Mixtures},
+  author={Mo, Shentong and Tian, Yapeng},
+  booktitle={CVPR},
+  pages={10565--10574},
+  year={2023},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{liu2024luavs,
+  title={Benchmarking Audio Visual Segmentation for Long-Untrimmed Videos},
+  author={Liu, Chen and Li, Peike and Yu, Qingtao and Sheng, Hongwei and Wang, Dadong and Li, Lincheng and Yu, Xin},
+  booktitle={CVPR},
+  pages={22712--22722},
+  year={2024}
+}
+
+@inproceedings{tian2018audio,
+  title={Audio-Visual Event Localization in Unconstrained Videos},
+  author={Tian, Yapeng and Shi, Jing and Li, Bochen and Duan, Zhiyao and Xu, Chenliang},
+  booktitle={ECCV},
+  year={2018},
+  pages={252--268},
+  publisher={Springer},
+  address={Cham, Switzerland},
+}
+
+@inproceedings{wu2019llp,
+  title={Unified Multisensory Perception: Weakly-Supervised Audio-Visual Video Parsing},
+  author={Tian, Yapeng and Li, Dingzeyu and Xu, Chenliang},
+  year={2020},
+  booktitle={ECCV},
+  pages={436--454},
+  publisher={Springer},
+  address={Cham, Switzerland}
+}
+
+@inproceedings{alamri2019avsd,
+  title={Audio Visual Scene-Aware Dialog},
+  author={Alamri, Huda and Cartillier, Vincent and Das, Abhishek and Wang, Jue and Cherian, Anoop and Essa, Irfan and Batra, Dhruv and Marks, Tim K. and Hori, Chiori and Anderson, Peter and Lee, Stefan and Parikh, Devi},
+  booktitle={CVPR},
+  year={2019},
+  pages={7550--7559},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@inproceedings{chen2021audio_visual_waypoints,
+  title={Learning to Set Waypoints for Audio-Visual Navigation},
+  author={Chen, Changan and Majumder, Sagnik and Al-Halah, Ziad and Gao, Ruohan and Ramakrishnan, Santhosh Kumar and Grauman, Kristen},
+  booktitle={ICLR},
+  year={2021},
+}
+
+@inproceedings{chen2020soundspaces,
+  title={Soundspaces: Audio-visual navigation in 3d environments},
+  author={Chen, Changan and Jain, Unnat and Schissler, Carl and Gari, Sebastia Vicenc Amengual and Al-Halah, Ziad and Ithapu, Vamsi Krishna and Robinson, Philip and Grauman, Kristen},
+  booktitle={ECCV},
+  pages={17--36},
+  year={2020},
+  organization={Springer}
+}
+
+@inproceedings{shi2025towards,
+  title={Towards Audio-Visual Navigation in Noisy Environments: A Large-Scale Benchmark Dataset and an Architecture Considering Multiple Sound-Sources},
+  author={Shi, Zhanbo and Zhang, Lin and Li, Linfei and Shen, Ying},
+  booktitle={AAAI},
+  volume={39},
+  number={14},
+  pages={14673--14680},
+  year={2025}
+}
+
+@inproceedings{huang23avlmaps,
+              title={Audio Visual Language Maps for Robot Navigation},
+              author={Chenguang Huang and Oier Mees and Andy Zeng and Wolfram Burgard},
+              booktitle={Proceedings of the International Symposium on Experimental Robotics (ISER)},
+              year={2023},
+              address = {Chiang Mai, Thailand}
+          }
+
+@inproceedings{kazakos2019epic,
+  title={{EPIC-Fusion}: Audio-Visual Temporal Binding for Egocentric Action Recognition},
+  author={Kazakos, Evangelos and Nagrani, Arsha and Zisserman, Andrew and Damen, Dima},
+  booktitle={ICCV},
+  year={2019},
+  pages={5491--5500},
+  doi={10.1109/ICCV.2019.00559},
+}
+
+@inproceedings{lee2021crossattentional,
+  title={Cross-Attentional Audio-Visual Fusion for Weakly-Supervised Action Localization},
+  author={Lee, Jun-Tae and Jain, Mihir and Park, Hyoungwoo and Yun, Sungrack},
+  booktitle={ICLR},
+  year={2021}
+}
+
+@inproceedings{nagrani2021att_bottlenecks,
+  title={Attention Bottlenecks for Multimodal Fusion},
+  author={Nagrani, Arsha and Yang, Shan and Arnab, Anurag and Jansen, Aren and Schmid, Cordelia and Sun, Chen},
+  booktitle={NeurIPS},
+  year={2021},
+  pages={14200--14213},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{kim2025qatiger,
+    title={Question-Aware Gaussian Experts for Audio-Visual Question Answering},
+    author={Hongyeob Kim and Inyoung Jung and Dayoon Suh and Youjia Zhang and Sangmin Lee and Sungeun Hong},
+    booktitle={CVPR},
+    year={2025},
+  pages={13681--13690},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+% ============================================================================
+% MLLMs: Multimodal Large Language Models
+% ============================================================================
+
+@inproceedings{llava2024,
+  title={Visual Instruction Tuning},
+  author={Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={34892--34916},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@inproceedings{alayrac2022flamingo,
+  title={Flamingo: A Visual Language Model for Few-Shot Learning},
+  author={Alayrac, Jean-Baptiste and Donahue, Jeff and Luc, Pauline and others},
+  booktitle={NeurIPS},
+  year={2022},
+  pages={23716--23736},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{li2023blip2,
+  title={{BLIP-2}: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models},
+  author={Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven},
+  booktitle={ICML},
+  year={2023},
+  pages={19730--19742},
+  publisher={PMLR},
+  address={Honolulu, Hawaii, USA}
+}
+
+@misc{videollama2_2024,
+  title={{VideoLLaMA 2}: Advancing Spatial-Temporal Modeling and Audio Understanding in {Video-LLMs}},
+  author={Cheng, Zesen and Leng, Sicong and Zhang, Hang and others},
+  eprint={2406.07476},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+
+@inproceedings{meerkat2024,
+  title={Meerkat: Audio-Visual Large Language Model for Grounding in Space and Time},
+  author={Chowdhury, Sanjoy and Nag, Sayan and Dasgupta, Subhrajyoti and Chen, Jun and Elhoseiny, Mohamed and Gao, Ruohan and Manocha, Dinesh},
+  booktitle={ECCV},
+  year={2024},
+  pages={52--70},
+  publisher={Springer},
+  address={Cham, Switzerland},
+  doi={10.1007/978-3-031-73039-9_4},
+}
+
+@inproceedings{han2024onellm,
+  title={{OneLLM}: One Framework to Align All Modalities with Language},
+  author={Han, Jiaming and Gong, Kaixiong and Zhang, Yiyuan and others},
+  booktitle={CVPR},
+  year={2024},
+  pages={26574--26585},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{su2023pandagpt,
+  title={{PandaGPT}: One Model to Instruction-Follow Them All},
+  author={Su, Yixuan and Lan, Tian and Li, Huayang and Xu, Jialu and Wang, Yan and Cai, Deng},
+  eprint={2305.16355},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+
+@misc{zhan2024anygpt,
+  title={{AnyGPT}: Unified Multimodal {LLM} with Discrete Sequence Modeling},
+  author={Zhan, Jun and Dai, Junqi and Ye, Jiasheng and others},
+  eprint={2402.12226},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+% ============================================================================
+% Encoders: Visual, Audio, Multi-modal
+% ============================================================================
+
+@inproceedings{radford2021clip,
+  title={Learning Transferable Visual Models From Natural Language Supervision},
+  author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and others},
+  booktitle={ICML},
+  year={2021},
+  pages={8748--8763},
+  publisher={PMLR}
+}
+
+@inproceedings{zhai2023siglip,
+  title={Sigmoid Loss for Language Image Pre-Training},
+  author={Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas},
+  booktitle={ICCV},
+  year={2023},
+  pages={11941--11952},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{sun2023evaclip,
+  title={{EVA-CLIP}: Improved Training Techniques for {CLIP} at Scale},
+  author={Sun, Quan and Fang, Yuxin and Wu, Ledell and Wang, Xinlong and Cao, Yue},
+  eprint={2303.15389},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{radford2023whisper,
+  title={Robust Speech Recognition via Large-Scale Weak Supervision},
+  author={Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya},
+  booktitle={ICML},
+  year={2023},
+  pages={28492--28518},
+  publisher={PMLR},
+  address={Honolulu, Hawaii, USA}
+}
+
+@inproceedings{wu2023clap,
+  title={Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation},
+  author={Wu, Yusong and Chen, Ke and Zhang, Tianyu and Hui, Yuchen and others},
+  booktitle={ICASSP},
+  year={2023},
+  pages={1--5},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{huang2022audiomae,
+  title={Masked Autoencoders that Listen},
+  author={Huang, Po-Yao and Xu, Hu and Li, Juncheng and others},
+  booktitle={NeurIPS},
+  year={2022},
+  pages={28708--28720},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@inproceedings{gong2021ast,
+  title={{AST}: Audio Spectrogram Transformer},
+  author={Gong, Yuan and Chung, Yu-An and Glass, James},
+  booktitle={Interspeech},
+  year={2021},
+  pages={571--575},
+  publisher={ISCA},
+  address={Baixas, France},
+}
+
+% ============================================================================
+% Representation Learning / Pretraining
+% ============================================================================
+@inproceedings{zhu2023languagebind,
+      title={{LanguageBind}: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment}, 
+  booktitle={ICLR},
+      author={Bin Zhu and Bin Lin and Munan Ning and others},
+      year={2024}
+}
+
+@inproceedings{girdhar2023imagebind,
+  title={{ImageBind}: One Embedding Space To Bind Them All},
+  author={Girdhar, Rohit and El-Nouby, Alaaeldin and Liu, Zhuang and Singh, Mannat and Alwala, Kalyan Vasudev and Joulin, Armand and Misra, Ishan},
+  booktitle={CVPR},
+  year={2023},
+  pages={15180--15190},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{chen2023valor,
+  title={{VALOR}: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset},
+  author={Liu, Jing and Chen, Sihan and He, Xingjian and Guo, Longteng and Zhu, Xinxin and Wang, Weining and Tang, Jinhui},
+  eprint={2304.08345},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{wang2024internvideo2,
+  title={{InternVideo2}: Scaling Foundation Models for Multimodal Video Understanding},
+  booktitle={ECCV},
+  author={Wang, Yi and Li, Kunchang and Li, Xinhao and others},
+  year={2024}
+}
+
+@inproceedings{guzhov2022audioclip,
+  title={{AudioCLIP}: Extending {CLIP} to Image, Text and Audio},
+  author={Guzhov, Andrey and Raue, Federico and Hees, J{\"o}rn and Dengel, Andreas},
+  booktitle={ICASSP},
+  year={2022},
+  pages={976--980},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{wang2023onepeace,
+  title={{ONE-PEACE}: Exploring One General Representation Model Toward Unlimited Modalities},
+  author={Wang, Peng and Wang, Shijie and Lin, Junyang and others},
+  eprint={2305.11172},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{tong2022videomae,
+  title={{VideoMAE}: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training},
+  author={Tong, Zhan and Song, Yibing and Wang, Jue and Wang, Limin},
+  booktitle={NeurIPS},
+  year={2022},
+  pages={10078--10093},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+% ============================================================================
+% Unified Understanding + Generation Models
+% ============================================================================
+
+@misc{transfusion2024,
+  title={Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model},
+  author={Zhou, Chunting and Yu, Lili and Babu, Arun and Tirumala, Kushal and Yasunaga, Michihiro and Shamis, Leonid and Kahn, Jacob and Ma, Xuezhe and Zettlemoyer, Luke and Levy, Omer},
+  eprint={2408.11039},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{janus2024,
+  title={Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation},
+  author={Wu, Chengyue and Chen, Xiaokang and Wu, Zhiyu and others},
+  eprint={2410.13848},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{chameleon2024,
+  title={Chameleon: Mixed-Modal Early-Fusion Foundation Models},
+  author={Team, Chameleon},
+  eprint={2405.09818},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{showo2024,
+  title={{Show-o}: One Single Transformer to Unify Multimodal Understanding and Generation},
+  booktitle={ICLR},
+  author={Xie, Jinheng and Mao, Weijia and Bai, Zechen and Zhang, David Junhao and Wang, Weihao and Lin, Kevin Qinghong and Gu, Yuchao and Chen, Zhijie and Yang, Zhenheng and Shou, Mike Zheng},
+  year={2025}
+}
+
+@misc{wang2024emu3,
+  title={{Emu3}: Next-Token Prediction is All You Need},
+  author={Wang, Xinlong and Zhang, Xiaosong and others},
+  eprint={2409.18869},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{ge2024seedx,
+  title={{SEED-X}: Multimodal Models with Unified Multi-Granularity Comprehension and Generation},
+  author={Ge, Yuying and Zhao, Sijie and Zhu, Jinguo and others},
+  eprint={2404.14396},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{wu2024vilau,
+  title={{VILA-U}: A Unified Foundation Model Integrating Visual Understanding and Generation},
+  author={Wu, Yecheng and Zhang, Zhuoyang and Chen, Junyu and Tang, Haotian and Li, Dacheng and Fang, Yunhao and Zhu, Ligeng and Xie, Enze and Yin, Hongxu and Yi, Li and Han, Song and Lu, Yao},
+  booktitle={ICLR},
+  year={2025}
+}
+
+@inproceedings{wu2024nextgpt,
+  title={{NExT-GPT}: Any-to-Any Multimodal {LLM}},
+  author={Wu, Shengqiong and Fei, Hao and Qu, Leigang and others},
+  booktitle={ICML},
+  year={2024},
+  pages={53366--53397},
+  publisher={PMLR},
+  address={Vienna, Austria}
+}
+
+@misc{deng2025bagel,
+  title   = {Emerging Properties in Unified Multimodal Pretraining},
+  author  = {Deng, Chaorui and Zhu, Deyao and Li, Kunchang and Gou, Chenhui and Li, Feng and Wang, Zeyu and Zhong, Shu and Yu, Weihao and Nie, Xiaonan and Song, Ziang and Shi, Guang and Fan, Haoqi},
+  eprint={2505.14683},
+  archivePrefix={arXiv},
+  year    = {2025}
+}
+
+% ============================================================================
+% LLM Backbones
+% ============================================================================
+
+@misc{touvron2023llama,
+  title={{LLaMA}: Open and Efficient Foundation Language Models},
+  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and others},
+  eprint={2302.13971},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{chiang2023vicuna,
+  title={Vicuna: An Open-Source Chatbot Impressing {GPT-4} with 90\%* {ChatGPT} Quality},
+  author={Chiang, Wei-Lin and Li, Zhuohan and Lin, Zi and others},
+  year={2023},
+  howpublished={LMSYS Org Blog},
+  url={https://lmsys.org/blog/2023-03-30-vicuna/}
+}
+
+@misc{bai2023qwen,
+  title={{Qwen}: Technical Report},
+  author={Bai, Jinze and Bai, Shuai and Chu, Yunfei and others},
+  eprint={2309.16609},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+% ============================================================================
+% Datasets
+% ============================================================================
+@misc{soomro2012ucf101,
+  title={{UCF101}: A dataset of 101 human actions classes from videos in the wild},
+  author={Soomro, Khurram and Zamir, Amir Roshan and Shah, Mubarak},
+  eprint={1212.0402},
+  archivePrefix={arXiv},
+  year={2012}
+}
+
+@misc{guo2023audio,
+  title={Audio-Visual Instance Segmentation},
+  author={Guo, Ruohao and Ying, Xianghua and Chen, Yaru and others},
+  eprint={2310.18709},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{gao2019visualsound,
+      title={{2.5D} Visual Sound},
+      author={Gao, Ruohan and Grauman, Kristen},
+      booktitle={CVPR},
+      year={2019},
+  pages={324--333},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@inproceedings{choi2025s,
+  title={What's Making That Sound Right Now? Video-centric Audio-Visual Localization},
+  author={Choi, Hahyeon and Lee, Junhoo and Kwak, Nojun},
+  booktitle={ICCV},
+  pages={20095--20104},
+  year={2025},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@inproceedings{
+cao2026tavcompass,
+title={{T2}{AV}-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation},
+author={Zhe Cao and Tao Wang and Jiaming Wang and others},
+booktitle={ICML},
+year={2026},
+note={arXiv:2512.21094},
+url={https://proceedings.mlr.press/v306/cao26v.html},
+  pages={11536--11580},
+  publisher={PMLR},
+  address={Seoul, South Korea}
+}
+
+@inproceedings{mao2024tavgbench,
+  title={Tavgbench: Benchmarking text to audible-video generation},
+  author={Mao, Yuxin and Shen, Xuyang and Zhang, Jing and Qin, Zhen and Zhou, Jinxing and Xiang, Mochu and Zhong, Yiran and Dai, Yuchao},
+  booktitle={ACM MM},
+  pages={6607--6616},
+  year={2024},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA},
+}
+
+@inproceedings{chen2020vggsound,
+  title={{VGGSound}: A Large-scale Audio-Visual Dataset},
+  author={Chen, Honglie and Xie, Weidi and Vedaldi, Andrea and Zisserman, Andrew},
+  booktitle={ICASSP},
+  year={2020},
+  pages={721--725},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{gemmeke2017audioset,
+  title={Audio Set: An Ontology and Human-Labeled Dataset for Audio Events},
+  author={Gemmeke, Jort F. and Ellis, Daniel P. W. and Freedman, Dylan and others},
+  booktitle={ICASSP},
+  year={2017},
+  pages={776--780},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{owens2016visually,
+  title={Visually Indicated Sounds},
+  author={Owens, Andrew and Isola, Phillip and McDermott, Josh and Torralba, Antonio and Adelson, Edward H and Freeman, William T},
+  booktitle={CVPR},
+  year={2016},
+  pages={2405--2413},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{kim2019audiocaps,
+  title={{AudioCaps}: Generating Captions for Audios in the Wild},
+  author={Kim, Chris Dongjoo and Kim, Byeongchang and Lee, Hyunmin and Kim, Gunhee},
+  booktitle={NAACL},
+  year={2019},
+  pages={119--132},
+  publisher={Association for Computational Linguistics},
+  address={Stroudsburg, PA, USA},
+  doi={10.18653/v1/N19-1011},
+}
+
+@inproceedings{bain2021webvid,
+  title={Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval},
+  author={Bain, Max and Nagrani, Arsha and Varol, G{\"u}l and Zisserman, Andrew},
+  booktitle={ICCV},
+  year={2021},
+  pages={1708--1718},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  doi={10.1109/ICCV48922.2021.00175},
+}
+
+@inproceedings{chen2024panda70m,
+  title={{Panda-70M}: Captioning {70M} Videos with Multiple Cross-Modality Teachers},
+  author={Chen, Tsai-Shien and Siarohin, Aliaksandr and others},
+  booktitle={CVPR},
+  year={2024},
+  pages={13320--13331},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{wang2024internvid,
+  title={{InternVid}: A Large-Scale Video-Text Dataset for Multimodal Understanding and Generation},
+  author={Wang, Yi and He, Yinan and Li, Yizhuo and others},
+  booktitle={ICLR},
+  year={2024},
+  pages={42055--42079},
+  address={Vienna, Austria}
+}
+
+@inproceedings{xue2022hdvila,
+  title={{Advancing} High-Resolution Video-Language Representation with {Large-Scale} Video Transcriptions},
+  author={Xue, Hongwei and Hang, Tiankai and Zeng, Yanhong and others},
+  booktitle={CVPR},
+  year={2022},
+  pages={5026--5035},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@misc{kay2017kinetics,
+  title={The {Kinetics} Human Action Video Dataset},
+  author={Kay, Will and Carreira, Jo{\~a}o and Simonyan, Karen and others},
+  year={2017},
+  eprint={1705.06950},
+  archivePrefix={arXiv}
+}
+
+@inproceedings{caba2015activitynet,
+  title={{ActivityNet}: A Large-Scale Video Benchmark for Human Activity Understanding},
+  author={Caba Heilbron, Fabian and Escorcia, Victor and Ghanem, Bernard and Carlos Niebles, Juan},
+  booktitle={CVPR},
+  year={2015},
+  pages={961--970},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{sanabria2018how2,
+  title={{How2}: A Large-scale Dataset for Multimodal Language Understanding},
+  author={Sanabria, Ramon and Caglayan, Ozan and Palaskar, Shruti and others},
+  year={2018},
+  howpublished={Visually Grounded Interaction and Language (ViGIL), NeurIPS 2018 Workshop},
+  url={https://nips2018vigil.github.io/static/papers/accepted/26.pdf}
+}
+
+@inproceedings{lee2022landscape,
+  title={Sound-Guided Semantic Video Generation},
+  author={Lee, Seung Hyun and Oh, Gyeongrok and Byeon, Wonmin and Kim, Chanyoung and Ryoo, Won Jeong and Yoon, Sang Ho and Cho, Hyunjun and Bae, Jihyun and Kim, Jinkyu and Kim, Sangpil},
+  booktitle={ECCV},
+  year={2022},
+  pages={34--50},
+  publisher={Springer},
+  address={Cham, Switzerland}
+}
+
+% ============================================================================
+% Evaluation Metrics
+% ============================================================================
+@misc{song2025syncphony,
+  title={Syncphony: Synchronized Audio-to-Video Generation with Diffusion Transformers},
+  author={Song, Jibin and Kwon, Mingi and Jeong, Jaeseok and Uh, Youngjung},
+  eprint={2509.21893},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{linz2024asva,
+    title={Audio-Synchronized Visual Animation},
+    author={Lin Zhang and Shentong Mo and Yijing Zhang and Pedro Morgado},
+    booktitle={ECCV},
+    year={2024},
+  pages={1--18},
+  publisher={Springer},
+  address={Cham, Switzerland},
+}
+
+@inproceedings{synchformer2024iashin,
+  title={Synchformer: Efficient synchronization from sparse cues},
+  author={Iashin, Vladimir and Xie, Weidi and Rahtu, Esa and Zisserman, Andrew},
+  booktitle={ICASSP},
+  pages={5325--5329},
+  year={2024},
+  organization={IEEE},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{mittag2021nisqa,
+  title={{NISQA}: A deep {CNN-self-attention} model for multidimensional speech quality prediction with crowdsourced datasets},
+  author={Mittag, Gabriel and Naderi, Babak and Chehadi, Assmaa and M{\"o}ller, Sebastian},
+  eprint={2104.09494},
+  archivePrefix={arXiv},
+  year={2021}
+}
+
+@misc{tjandra2025aes,
+    title={Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound},
+    author={Andros Tjandra and Yi-Chiao Wu and Baishan Guo and John Hoffman and Brian Ellis and Apoorv Vyas and Bowen Shi and Sanyuan Chen and Matt Le and Nick Zacharov and Carleigh Wood and Ann Lee and Wei-Ning Hsu},
+    year={2025},
+    eprint={2502.05139},
+    archivePrefix={arXiv},
+}
+
+@misc{laion_aesthetics_2022,
+  author = {Schuhmann, Christoph},
+  title = {{LAION-Aesthetics}},
+  year = {2022},
+  publisher = {LAION},
+  url = {https://laion.ai/blog/laion-aesthetics/},
+  note = {Accessed: 2026-04-19}
+}
+
+@inproceedings{wu2023dover,
+      title={Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives}, 
+      author={Wu, Haoning and Zhang, Erli and Liao, Liang and Chen, Chaofeng and Hou, Jingwen Hou and Wang, Annan and Sun, Wenxiu Sun and Yan, Qiong and Lin, Weisi},
+      year={2023},
+      booktitle={ICCV},
+  pages={20087--20097},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{unterthiner2019fvd,
+  title={{FVD}: A New Metric for Video Generation},
+  author={Unterthiner, Thomas and van Steenkiste, Sjoerd and Kurach, Karol and others},
+  booktitle={ICLR Workshop on Deep Generative Models for Highly Structured Data},
+  year={2019},
+  address={New Orleans, Louisiana, USA}
+}
+
+@inproceedings{heusel2017fid,
+  title={{GANs} Trained by a Two Time-Scale Update Rule Converge to a Local {Nash} Equilibrium},
+  author={Heusel, Martin and Ramsauer, Hubert and Unterthiner, Thomas and Nessler, Bernhard and Hochreiter, Sepp},
+  booktitle={NeurIPS},
+  year={2017},
+  pages={6626--6637},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{salimans2016improved,
+  title={Improved Techniques for Training {GANs}},
+  author={Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi},
+  booktitle={NeurIPS},
+  year={2016},
+  pages={2234--2242},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{huang2024vbench,
+  title={{VBench}: Comprehensive Benchmark Suite for Video Generative Models},
+  author={Huang, Ziqi and He, Yinan and Yu, Jiashuo and others},
+  booktitle={CVPR},
+  year={2024},
+  pages={21807--21818},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{kilgour2019fad,
+  title={{Fr\'{e}chet} Audio Distance: A Reference-Free Metric for Evaluating Music Enhancement Algorithms},
+  author={Kilgour, Kevin and Zuluaga, Mauricio and Roblek, Dominik and Sharifi, Matthew},
+  booktitle={Interspeech},
+  year={2019},
+  pages={2350--2354},
+  publisher={ISCA},
+  address={Baixas, France},
+  doi={10.21437/Interspeech.2019-2219},
+}
+
+
+@inproceedings{carreira2017i3d,
+  title={Quo Vadis, Action Recognition? A New Model and the {Kinetics} Dataset},
+  author={Carreira, Jo{\~a}o and Zisserman, Andrew},
+  booktitle={CVPR},
+  year={2017},
+  pages={4724--4733},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{hershey2017cnn,
+  title={{CNN} Architectures for Large-Scale Audio Classification},
+  author={Hershey, Shawn and Chaudhuri, Sourish and Ellis, Daniel P. W. and others},
+  booktitle={ICASSP},
+  year={2017},
+  pages={131--135},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@article{kong2020panns,
+  title={{PANNs}: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition},
+  author={Kong, Qiuqiang and Cao, Yin and Iqbal, Turab and Wang, Yuxuan and Wang, Wenwu and Plumbley, Mark D.},
+  journal={IEEE/ACM Trans. Audio, Speech, Language Process.},
+  year={2020},
+  volume={28},
+  pages={2880--2894},
+}
+
+@inproceedings{mcfee2015librosa,
+  title={librosa: Audio and Music Signal Analysis in {Python}},
+  author={McFee, Brian and Raffel, Colin and Liang, Dawen and others},
+  year={2015},
+  pages={18--24},
+  publisher={SciPy},
+  address={Austin, TX, USA},
+  booktitle={Proceedings of the Python in Science Conference (SciPy)},
+  doi={10.25080/Majora-7b98e3ed-003},
+}
+
+@inproceedings{papineni2002bleu,
+  title={{BLEU}: A Method for Automatic Evaluation of Machine Translation},
+  author={Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
+  booktitle={ACL},
+  year={2002},
+  pages={311--318},
+  publisher={Association for Computational Linguistics},
+  address={Stroudsburg, PA, USA}
+}
+
+@inproceedings{vedantam2015cider,
+  title={{CIDEr}: Consensus-based Image Description Evaluation},
+  author={Vedantam, Ramakrishna and Lawrence Zitnick, C. and Parikh, Devi},
+  booktitle={CVPR},
+  year={2015},
+  pages={4566--4575},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{banerjee2005meteor,
+  title={{METEOR}: An Automatic Metric for {MT} Evaluation with Improved Correlation with Human Judgments},
+  author={Banerjee, Satanjeev and Lavie, Alon},
+  booktitle={ACL Workshop},
+  year={2005},
+  pages={65--72},
+  publisher={Association for Computational Linguistics},
+  address={Stroudsburg, PA, USA}
+}
+
+% ============================================================================
+% Surveys (for positioning)
+% ============================================================================
+
+@inproceedings{omnillm_survey2025,
+    title = "From Specific-{MLLM}s to Omni-{MLLM}s: A Survey on {MLLM}s Aligned with Multi-modalities",
+    author = "Jiang, Shixin  and
+      Liang, Jiafeng  and
+      Wang, Jiyuan  and
+      Dong, Xuan  and
+      Chang, Heng  and
+      Yu, Weijiang  and
+      Du, Jinhua  and
+      Liu, Ming  and
+      Qin, Bing",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.453/",
+    doi = "10.18653/v1/2025.findings-acl.453",
+    pages = "8617--8652",
+    ISBN = "979-8-89176-256-5",
+    abstract = "To tackle complex tasks in real-world scenarios, more researchers are focusing on Omni-MLLMs, which aim to achieve omni-modal understanding and generation. Beyond the constraints of any specific non-linguistic modality, Omni-MLLMs map various non-linguistic modalities into the embedding space of LLMs and enable the interaction and understanding of arbitrary combinations of modalities within a single model. In this paper, we systematically investigate relevant research and provide a comprehensive survey of Omni-MLLMs. Specifically, we first explain the four core components of Omni-MLLMs for unified multi-modal modeling with a meticulous taxonomy that offers novel perspectives. Then, we introduce the effective integration achieved through two-stage training and discuss the corresponding datasets as well as evaluation. Furthermore, we summarize the main challenges of current Omni-MLLMs and outline future directions. We hope this paper serves as an introduction for beginners and promotes the advancement of related research. Resources have been made publicly availableat https://github.com/threegold116/Awesome-Omni-MLLMs."
+}
+
+@misc{xing2024videodiffusion,
+      title={A Survey on Video Diffusion Models}, 
+      author={Zhen Xing and Qijun Feng and Haoran Chen and Qi Dai and Han Hu and Hang Xu and Zuxuan Wu and Yu-Gang Jiang},
+      year={2024},
+      eprint={2310.10647},
+      archivePrefix={arXiv},
+}
+
+@article{yin2024mllm_survey,
+   title={A survey on multimodal large language models},
+   volume={11},
+   ISSN={2053-714X},
+   url={http://dx.doi.org/10.1093/nsr/nwae403},
+   DOI={10.1093/nsr/nwae403},
+   number={12},
+   journal={National Science Review},
+   publisher={Oxford University Press (OUP)},
+   author={Yin, Shukang and Fu, Chaoyou and Zhao, Sirui and Li, Ke and Sun, Xing and Xu, Tong and Chen, Enhong},
+   year={2024},
+   month=nov,
+  pages={nwae403}
+}
+
+@inproceedings{
+audiomllm2024,
+title={Towards Holistic Evaluation of Large Audio-Language Models: A Comprehensive Survey},
+author={Yang, Chih-Kai and Ho, Neo S. and Lee, Hung-yi},
+booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+year={2025},
+address={Suzhou, China},
+publisher={Association for Computational Linguistics},
+pages={10144--10170},
+doi={10.18653/v1/2025.emnlp-main.514}
+}
+
+@misc{audiodiffusion2023,
+      title={A Survey on Audio Diffusion Models: Text To Speech Synthesis and Enhancement in Generative {AI}}, 
+      author={Chenshuang Zhang and Chaoning Zhang and Sheng Zheng and Mengchun Zhang and Maryam Qamar and Sung-Ho Bae and In So Kweon},
+      year={2023},
+      eprint={2303.13336},
+      archivePrefix={arXiv},
+}
+
+@misc{avs_survey2025,
+      title={From Waveforms to Pixels: A Survey on Audio-Visual Segmentation}, 
+      author={Jia Li and Yapeng Tian},
+      year={2025},
+      eprint={2508.03724},
+      archivePrefix={arXiv},
+}
+
+@misc{unified_survey2025,
+  title={Unified Multimodal Understanding and Generation Models: Advances, Challenges, and Opportunities},
+  author={Zhao, Shanshan and Zhang, Xinjie and Guo, Jintao and Hu, Jiakui and Duan, Lunhao and Fu, Minghao and Chng, Yong Xien and Wang, Guo-Hua and Chen, Qing-Guo and Xu, Zhao and Luo, Weihua and Zhang, Kaifu},
+  eprint={2505.02567},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{caffagni-etal-2024-revolution,
+    title = "The Revolution of Multimodal Large Language Models: A Survey",
+    author = "Caffagni, Davide  and
+      Cocchi, Federico  and
+      Barsellotti, Luca  and
+      Moratelli, Nicholas  and
+      Sarto, Sara  and
+      Baraldi, Lorenzo  and
+      Cornia, Marcella  and
+      Cucchiara, Rita",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.807/",
+    doi = "10.18653/v1/2024.findings-acl.807",
+    pages = "13590--13618",
+    abstract = "Connecting text and visual modalities plays an essential role in generative intelligence. For this reason, inspired by the success of large language models, significant research efforts are being devoted to the development of Multimodal Large Language Models (MLLMs). These models can seamlessly integrate visual and textual modalities, while providing a dialogue-based interface and instruction-following capabilities. In this paper, we provide a comprehensive review of recent visual-based MLLMs, analyzing their architectural choices, multimodal alignment strategies, and training techniques. We also conduct a detailed analysis of these models across a wide range of tasks, including visual grounding, image generation and editing, visual understanding, and domain-specific applications. Additionally, we compile and describe training datasets and evaluation benchmarks, conducting comparisons among existing models in terms of performance and computational requirements. Overall, this survey offers a comprehensive overview of the current state of the art, laying the groundwork for future MLLMs."
+}
+
+@misc{he2024llmsmeetmultimodalgeneration,
+      title={{LLMs} Meet Multimodal Generation and Editing: A Survey}, 
+      author={Yingqing He and Zhaoyang Liu and Jingye Chen and others},
+      year={2024},
+      eprint={2405.19334},
+      archivePrefix={arXiv},
+}
+
+% ============================================================================
+% Miscellaneous
+% ============================================================================
+
+@inproceedings{singer2023makeavideo,
+  title={Make-A-Video: Text-to-Video Generation without Text-Video Data},
+  author={Singer, Uriel and Polyak, Adam and Hayes, Thomas and others},
+  booktitle={ICLR},
+  year={2023},
+}
+
+@inproceedings{oncescu2021queryd,
+  title={{QuerYD}: A Video Dataset with High-Quality Text and Audio Narrations},
+  author={Oncescu, Andreea-Maria and Henriques, Jo{\~a}o F. and Liu, Yang and Zisserman, Andrew and Albanie, Samuel},
+  booktitle={ICASSP},
+  year={2021},
+  pages={2265--2269},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  doi={10.1109/ICASSP39728.2021.9414640},
+}
+
+@misc{yang2023uniaudio,
+  title={{UniAudio}: An Audio Foundation Model Toward Universal Audio Generation},
+  author={Yang, Dongchao and others},
+  eprint={2310.00704},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{sutton2019bitterlesson,
+  title={The Bitter Lesson},
+  author={Sutton, Richard S.},
+  year={2019},
+  url={http://www.incompleteideas.net/IncIdeas/BitterLesson.html}
+}
+
+@inproceedings{fernandez2023watermarking,
+  title={The Stable Signature: Rooting Watermarks in Latent Diffusion Models},
+  author={Fernandez, Pierre and Couairon, Guillaume and J{\'e}gou, Herv{\'e} and Douze, Matthijs and Furon, Teddy},
+  booktitle={ICCV},
+  year={2023}
+}
+
+@inproceedings{morgado2018self,
+  title={Self-Supervised Generation of Spatial Audio for {360} Video},
+  author={Morgado, Pedro and Vasconcelos, Nuno and Langlois, Timothy and Wang, Oliver},
+  booktitle={NeurIPS},
+  year={2018},
+  pages={362--372},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@misc{gong2024avodyssey,
+  title={{AV-Odyssey Bench}: Can Your Multimodal {LLMs} Really Understand Audio-Visual Information?},
+  author={Gong, Kaixiong and Feng, Kaituo and Li, Bohao and Wang, Yibing and Cheng, Mofan and Yang, Shijia and Han, Jiaming and Wang, Benyou and Bai, Yutong and Yang, Zhuoran and Yue, Xiangyu},
+  eprint={2412.02611},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+% ============================================================================
+% Scaling Laws
+% ============================================================================
+
+@misc{kaplan2020scalinglaws,
+  title={Scaling Laws for Neural Language Models},
+  author={Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario},
+  eprint={2001.08361},
+  archivePrefix={arXiv},
+  year={2020}
+}
+
+@misc{lecun2022worldmodels,
+  title={A Path Towards Autonomous Machine Intelligence},
+  author={LeCun, Yann},
+  year={2022},
+  howpublished={Position paper, version 0.9.2},
+  url={https://openreview.net/forum?id=BZ5a1r-kVsf},
+}
+
+% ============================================================================
+% Unified Models: Additional Entries
+% ============================================================================
+
+@inproceedings{janusflow2024,
+  title={{JanusFlow}: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation},
+  author={Ma, Yiyang and Liu, Xingchao and Chen, Xiaokang and Liu, Wen and Wu, Chengyue and Wu, Zhiyu and Pan, Zizheng and Xie, Zhenda and others},
+  year={2025},
+  booktitle={CVPR},
+  pages={7739--7751},
+  doi={10.1109/CVPR52734.2025.00725},
+}
+
+@misc{emma2025,
+  title={{EMMA}: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture},
+  author={He, Xin and Wei, Longhui and Ouyang, Jianbo and Liao, Minghui and Xie, Lingxi and Tian, Qi},
+  eprint={2512.04810},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{monoformer2024,
+  title={{MonoFormer}: One Transformer for Both Diffusion and Autoregression},
+  author={Zhao, Chuyang and Song, Yuxing and Wang, Wenhao and Feng, Haocheng and Ding, Errui and Sun, Yifan and Xiao, Xinyan and Wang, Jingdong},
+  eprint={2409.16280},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{lmfusion2024,
+  title={{LMFusion}: Adapting Pretrained Language Models for Multimodal Generation},
+  author={Shi, Weijia and Han, Xiaochuang and Zhou, Chunting and Liang, Weixin and Lin, Xi Victoria and Zettlemoyer, Luke and Yu, Lili},
+  eprint={2412.15188},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{liu2024lwm,
+  title={World model on million-length video and language with blockwise ringattention},
+  author={Liu, Hao and Yan, Wilson and Zaharia, Matei and Abbeel, Pieter},
+  eprint={2402.08268},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{wu2024liquid,
+  title={Liquid: Language Models are Scalable and Unified Multi-modal Generators},
+  author={Wu, Junfeng and Jiang, Yi and Ma, Chuofan and Liu, Yuliang and Zhao, Hengshuang and Yuan, Zehuan and Bai, Song and Bai, Xiang},
+  eprint={2412.04332},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{lu2024unifiedio2,
+  title={{Unified-IO 2}: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action},
+  author={Lu, Jiasen and Clark, Christopher and Lee, Sangho and Zhang, Zichen and Khosla, Savya and Marten, Ryan and Hoiem, Derek and Kembhavi, Aniruddha},
+  booktitle={CVPR},
+  pages={26429--26445},
+  year={2024},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{nie2025llada,
+  title={Large Language Diffusion Models},
+  author={Nie, Shen and Zhu, Fengqi and You, Zebin and Zhang, Xiaolu and Ou, Jingyang and Hu, Jun and ZHOU, JUN and Lin, Yankai and Wen, Ji-Rong and Li, Chongxuan},
+  booktitle={NeurIPS},
+  year={2025},
+  pages={50608--50646},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{mmada2025,
+  title   = {{MMaDA}: Multimodal Large Diffusion Language Models},
+  booktitle={NeurIPS},
+  author  = {Yang, Ling and Tian, Ye and Li, Bowen and Zhang, Xinchen and Shen, Ke and Tong, Yunhai and Wang, Mengdi},
+  year    = {2025}
+}
+
+@misc{uniDisc2025,
+  title={Unified Multimodal Discrete Diffusion},
+  author={Swerdlow, Alexander and Prabhudesai, Mihir and Gandhi, Siddharth and Pathak, Deepak and Fragkiadaki, Katerina},
+  eprint={2503.20853},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{song2023consistencymodels,
+  title={Consistency Models},
+  booktitle={ICML},
+  author={Song, Yang and Dhariwal, Prafulla and Chen, Mark and Sutskever, Ilya},
+  year={2023}
+}
+
+@inproceedings{dao2022flashattention,
+  title={{FlashAttention}: Fast and Memory-Efficient Exact Attention with {IO-Awareness}},
+  author={Dao, Tri and Fu, Daniel Y. and Ermon, Stefano and Rudra, Atri and R{\'e}, Christopher},
+  booktitle={NeurIPS},
+  year={2022},
+  pages={16344--16359},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+  doi={10.52202/068431-1189},
+}
+
+% ============================================================================
+% AUDIO-VIDEO GENERATION AND UNDERSTANDING (author/venue verified 2026-08-15)
+% ============================================================================
+@misc{wans2v2024,
+      title={{Wan-S2V}: Audio-Driven Cinematic Video Generation}, 
+      author={Xin Gao and Li Hu and Siqi Hu and others},
+      year={2025},
+      eprint={2508.18621},
+      archivePrefix={arXiv},
+}
+
+@misc{chen2025yingvideo,
+  title={{YingVideo-MV}: Music-Driven Multi-Stage Video Generation},
+  author={Chen, Jiahui and Wang, Weida and Shi, Runhua and Yang, Huan and Ding, Chaofan and Chen, Zihao},
+  eprint={2512.02492},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{soundingvideo2024,
+      title={A Simple but Strong Baseline for Sounding Video Generation: Effective Adaptation of Audio and Video Diffusion Models for Joint Generation}, 
+      author={Masato Ishii and Akio Hayakawa and Takashi Shibuya and Yuki Mitsufuji},
+      year={2025},
+      eprint={2409.17550},
+      archivePrefix={arXiv},
+}
+
+@misc{avlink2024,
+      title={{AV-Link}: Temporally-Aligned Diffusion Features for Cross-Modal Audio-Video Generation}, 
+      author={Moayed Haji-Ali and Willi Menapace and Aliaksandr Siarohin and Ivan Skorokhodov and Alper Canberk and Kwot Sin Lee and Vicente Ordonez and Sergey Tulyakov},
+      year={2024},
+      eprint={2412.15191},
+      archivePrefix={arXiv},
+}
+
+@inproceedings{mmdiff2024,
+author = {Ruan, Ludan and Ma, Yiyang and Yang, Huan and He, Huiguo and Liu, Bei and Fu, Jianlong and Yuan, Nicholas Jing and Jin, Qin and Guo, Baining},
+title = {{MM-Diffusion}: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation},
+year	= {2023},
+booktitle	= {CVPR},
+  pages={10219--10228},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{avsformer2024,
+      title={{AVSegFormer}: Audio-Visual Segmentation with Transformer}, 
+      author={Gao, Shengyi and Chen, Zhe and Chen, Guo and Wang, Wenhai and Lu, Tong},
+      year={2024},
+      eprint={2307.01146},
+      archivePrefix={arXiv},
+  booktitle={AAAI},
+  pages={12155--12163},
+  publisher={AAAI Press},
+  address={Washington, DC, USA},
+}
+
+@misc{crab2025,
+  title={Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation},
+  author={Du, Henghui and Li, Guangyao and Zhou, Chang and Zhang, Chunjie and Zhao, Alan and Hu, Di},
+  eprint={2503.13068},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{gong2023cavmae,
+  title={{Contrastive} Audio-Visual Masked Autoencoder},
+  author={Gong, Yuan and Rouditchenko, Andrew and Liu, Alexander H and Harwath, David and Karlinsky, Leonid and Kuehne, Hilde and Glass, James},
+  booktitle={ICLR},
+  year={2023},
+  address={Kigali, Rwanda}
+}
+
+@inproceedings{araujo2025cav,
+  title={Cav-mae sync: Improving contrastive audio-visual mask autoencoders via fine-grained alignment},
+  author={Araujo, Edson and Rouditchenko, Andrew and Gong, Yuan and Bhati, Saurabhchand and Thomas, Samuel and Kingsbury, Brian and Karlinsky, Leonid and Feris, Rogerio and Glass, James R and Kuehne, Hilde},
+  booktitle={CVPR},
+  pages={18794--18803},
+  year={2025},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@InProceedings{Vyas_2026_CVPR,
+    author    = {Vyas, Apoorv and Chang, Heng-Jui and Yang, Cheng-Fu and Huang, Po-Yao and Gao, Luya and Richter, Julius and Chen, Sanyuan and Le, Matt and Doll\'ar, Piotr and Feichtenhofer, Christoph and Lee, Ann and Hsu, Wei-Ning},
+    title     = {Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning},
+    booktitle = {CVPR},
+    month     = {June},
+    year      = {2026},
+    pages={30172--30182},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA}
+}
+
+@misc{chu2023qwenaudio,
+  title={{Qwen-Audio}: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models},
+  author={Chu, Yunfei and Xu, Jin and Zhou, Xiaohuan and Yang, Qian and Zhang, Shiliang and Yan, Zhijie and Zhou, Chang and Zhou, Jingren},
+  eprint={2311.07919},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{li2024mert,
+  title={{MERT}: Acoustic Music Understanding Model with Large-Scale Self-supervised Training},
+  author={Li, Yizhi and Yuan, Ruibin and Zhang, Ge and Ma, Yinghao and Chen, Xingran and Yin, Hanzhi and Xiao, Chenghao and Lin, Chenghua and Ragni, Anton and Benetos, Emmanouil and Gyenge, Norbert and Dannenberg, Roger and Liu, Ruibo and Chen, Wenhu and Xia, Gus and Shi, Yemin and Huang, Wenhao and Wang, Zili and Guo, Yike and Fu, Jie},
+  booktitle={ICLR},
+  year={2024},
+  address={Vienna, Austria},
+  pages={12181--12204}
+}
+
+@inproceedings{tang2023salmonn,
+  title={{SALMONN}: Towards Generic Hearing Abilities for Large Language Models},
+  author={Tang, Changli and Yu, Wenyi and Sun, Guangzhi and Chen, Xianzhao and Tan, Tian and Li, Wei and Lu, Lu and Ma, Zejun and Zhang, Chao},
+  booktitle={ICLR},
+  year={2024},
+  pages={16607--16629},
+  address={Vienna, Austria}
+}
+
+@inproceedings{gong2023ltu,
+  title={Listen, Think, and Understand},
+  author={Gong, Yuan and Luo, Hongyin and Liu, Alexander H. and Karlinsky, Leonid and Glass, James},
+  booktitle={ICLR},
+  year={2024},
+  url={https://openreview.net/forum?id=nBZBPXdJlC},
+}
+
+@inproceedings{videosalmonn2024,
+  title={video-{SALMONN}: Speech-Enhanced Audio-Visual Large Language Models},
+  booktitle={ICML},
+  author={Sun, Guangzhi and Yu, Wenyi and Tang, Changli and Chen, Xianzhao and Tan, Tian and Li, Wei and Lu, Lu and Ma, Zejun and Wang, Yuxuan and Zhang, Chao},
+  year={2024},
+  pages={47198--47217},
+  volume={235},
+  series={Proceedings of Machine Learning Research},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v235/sun24l.html}
+}
+
+@inproceedings{sun2026videosalmonns,
+  title={video-{SALMONN} {S}: Memory-Enhanced Streaming Audio-Visual {LLM}},
+  author={Sun, Guangzhi and Li, Yixuan and Wu, Xiaodong and Yang, Yudong and Li, Wei and Ma, Zejun and Zhang, Chao},
+  booktitle={ICML},
+  year={2026},
+  series={Proceedings of Machine Learning Research},
+  volume={306},
+  pages={116776--116791},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v306/sun26s.html}
+}
+
+@misc{omcat2024,
+  title={{OMCAT}: Omni Context Aware Transformer},
+  author={Goel, Arushi and Sapra, Karan and Le, Matthieu and Valle, Rafael and Tao, Andrew and Catanzaro, Bryan},
+  eprint={2410.12109},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{longvale2024,
+  title={{LongVALE}: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos},
+  author={Geng, Tiantian and Zhang, Jinrui and Wang, Qingni and Wang, Teng and Duan, Jinming and Zheng, Feng},
+  year={2025},
+  booktitle={CVPR},
+  pages={18959--18969},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+% ============================================================================
+% OMNI-CAPABLE MODELS (Any-to-Any, Real-Time Interaction)
+% ============================================================================
+
+@misc{vita2024,
+  title={{VITA}: Towards Open-Source Interactive Omni Multimodal {LLM}},
+  author={Fu, Chaoyou and Lin, Haojia and Long, Zuwei and Shen, Yunhang and others},
+  eprint={2408.05211},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{emova2024,
+  title={{EMOVA}: Empowering Language Models to See, Hear and Speak with Vivid Emotions},
+  booktitle={CVPR},
+  author={Chen, Kai and Gou, Yunhao and Huang, Runhui and Liu, Zhili and Tan, Daxin and Xu, Jing and Wang, Chunwei and Zhu, Yi and Zeng, Yihan and Yang, Kuo and others},
+  year={2025},
+  pages={5455--5466},
+  publisher={IEEE},
+  url={https://openaccess.thecvf.com/content/CVPR2025/html/Chen_EMOVA_Empowering_Language_Models_to_See_Hear_and_Speak_with_CVPR_2025_paper.html}
+}
+
+@misc{miniomni2_2024,
+  title={{Mini-Omni2}: Towards Open-source {GPT-4o} with Vision, Speech and Duplex Capabilities},
+  author={Xie, Zhifei and Wu, Changqiao},
+  eprint={2410.11190},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+
+% ============================================================================
+% NEW: Papers extracted from reference surveys
+% ============================================================================
+
+% --- LLM-Based V2A / Music Generation ---
+
+@misc{hussain2023m,
+  title={M$^2${UGen}: Multi-modal Music Understanding and Generation with the Power of Large Language Models},
+  author={Liu, Shansong and Hussain, Atin Sakkeer and Wu, Qilong and Sun, Chenshuo and Shan, Ying},
+  eprint={2311.11255},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@article{mumullama,
+  title={{MuMu-LLaMA}: Multi-modal Music Understanding and Generation via Large Language Models},
+  author={Liu, Shansong and Wu, Qilong and Hussain, Atin Sakkeer and Shan, Ying and Sun, Chenshuo},
+  year={2026},
+  journal={Expert Systems with Applications},
+  volume={305},
+  articleno={130688},
+  doi={10.1016/j.eswa.2025.130688},
+}
+
+@misc{liu2023mullama,
+  title={{Music Understanding LLaMA}: Advancing Text-to-Music Generation with Question Answering and Captioning},
+  author={Liu, Shansong and Hussain, Atin Sakkeer and Sun, Chenshuo and Shan, Ying},
+  eprint={2308.11276},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+% --- A2V / World Simulation ---
+
+@inproceedings{worldgpt,
+  title={{WorldGPT}: Empowering {LLM} as Multimodal World Model},
+  author={Ge, Zhiqi and Huang, Hongzhe and Zhou, Mingze and Li, Juncheng and Wang, Guoming and Tang, Siliang and Zhuang, Yueting},
+  booktitle={ACM MM},
+  year={2024},
+  pages={7346--7355},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA},
+}
+
+% --- Joint AV / Any-to-Any Generation (LLM-based) ---
+
+
+@inproceedings{pang2026mavid,
+  title={{MAViD}: A Multimodal Framework for Audio-Visual Dialogue Understanding and Generation},
+  author={Pang, Youxin and Liu, Jiajun and Tan, Lingfeng and Zhang, Yong and Gao, Feng and Deng, Xiang and Kang, Zhuoliang and Wei, Xiaoming and Liu, Yebin},
+  booktitle={SIGGRAPH},
+  year={2026},
+  pages={1--9},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA}
+}
+
+@inproceedings{modaverse,
+  title={{ModaVerse}: Efficiently Transforming Modalities with {LLMs}},
+  author={Wang, Xinyu and Zhuang, Bohan and Wu, Qi},
+  booktitle={CVPR},
+  year={2024},
+  pages={26596--26606},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{xvila,
+  title={{X-VILA}: Cross-Modality Alignment for Large Language Model},
+  author={Ye, Hanrong and Huang, De-An and Lu, Yao and Yu, Zhiding and Ping, Wei and Tao, Andrew and Kautz, Jan and Han, Song and Xu, Dan and Molchanov, Pavlo and others},
+  eprint={2405.19335},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{unifiedmllm,
+  title={{UnifiedMLLM}: Enabling Unified Representation for Multi-modal Multi-tasks With Large Language Model},
+  author={Li, Zhaowei and Wang, Wei and Cai, YiQing and Qi, Xu and Wang, Pengyu and Zhang, Dong and Song, Hang and Jiang, Botian and Huang, Zhida and Wang, Tao},
+  eprint={2408.02503},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{eagel,
+  title={Towards Multi-Modal Mastery: {A} {4.5B} Parameter Truly Multi-Modal Small Language Model},
+  author={Koska, Ben and Horv{\'a}th, Mojm{\'{\i}}r},
+  eprint={2411.05903},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{lai2024spider,
+  title={Spider: Any-to-Many Multimodal {LLM}},
+  author={Lai, Jinxiang and Zhang, Jie and Liu, Jun and Li, Jian and Lu, Xiaocheng and Guo, Song},
+  eprint={2411.09439},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{EmpathyEar,
+  title={{EmpathyEar}: An Open-source Avatar Multimodal Empathetic Chatbot},
+  author={Fei, Hao and Zhang, Han and Wang, Bin and Liao, Lizi and Liu, Qian and Cambria, Erik},
+  eprint={2406.15177},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{egmi,
+  title={Efficient Generative Multimodal Integration ({EGMI}): Enabling Audio Generation from Text-Image Pairs through Alignment with Large Language Models},
+  author={Kim, Taemin and Baek, Wooyeol and Oh, Heeseok},
+  year={2024},
+  howpublished={Audio Imagination: NeurIPS 2024 Workshop AI-Driven Speech, Music, and Sound Generation},
+  url={https://openreview.net/pdf/462424e66f7fea533a443a35104ca1dae8e95518.pdf},
+}
+
+@misc{li2024omniflow,
+  title={{OmniFlow}: Any-to-Any Generation with Multi-Modal Rectified Flows},
+  author={Li, Shufan and Kallidromitis, Konstantinos and Gokul, Akash and Liao, Zichun and Kato, Yusuke and Kozuka, Kazuki and Grover, Aditya},
+  eprint={2412.01169},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+
+@misc{jin2024video,
+  title={Video-{LaVIT}: Unified Video-Language Pre-training with Decoupled Visual-Motional Tokenization},
+  author={Jin, Yang and Sun, Zhicheng and Xu, Kun and Chen, Liwei and Jiang, Hao and Huang, Quzhe and Song, Chengru and Liu, Yuliang and Zhang, Di and Song, Yang and others},
+  eprint={2402.03161},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{guo2025m2,
+  title={{M2-Omni}: Advancing Omni-{MLLM} for Comprehensive Modality Support with Competitive Performance},
+  author={Guo, Qingpei and Song, Kaiyou and Feng, Zipeng and Ma, Ziping and Zhang, Qinglong and Gao, Sirui and Yu, Xuzheng and Sun, Yunxiao and Chang, Tai-Wei and Chen, Jingdong and others},
+  eprint={2502.18778},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+% --- Audio-Visual Understanding (Encoder-Projector-LLM) ---
+
+@inproceedings{videollama,
+  title={Video-{LLaMA}: An Instruction-tuned Audio-Visual Language Model for Video Understanding},
+  author={Zhang, Hang and Li, Xin and Bing, Lidong},
+  booktitle={EMNLP Demo},
+  year={2023}
+}
+
+@misc{xllm2023chen,
+  title={{X-LLM}: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages},
+  author={Chen, Feilong and Han, Minglun and Zhao, Haozhi and Zhang, Qingyang and Shi, Jing and Xu, Shuang and Xu, Bo},
+  eprint={2305.04160},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{chatbridge,
+  title={{ChatBridge}: Bridging Modalities with Large Language Model as a Language Catalyst},
+  author={Zhao, Zijia and Guo, Longteng and Yue, Tongtian and Chen, Sihan and Shao, Shuai and Zhu, Xinxin and Yuan, Zehuan and Liu, Jing},
+  eprint={2305.16103},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{bubogpt,
+  title={{BuboGPT}: Enabling Visual Grounding in Multi-Modal {LLMs}},
+  author={Zhao, Yang and Lin, Zhijie and Zhou, Daquan and Huang, Zilong and Feng, Jiashi and Kang, Bingyi},
+  eprint={2307.08581},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{xinstruclblip,
+  title={{X-InstructBLIP}: A Framework for Aligning {X}-Modal Instruction-Aware Representations to {LLMs} and Emergent Cross-Modal Reasoning},
+  author={Panagopoulou, Artemis and Xue, Le and Yu, Ning and Li, Junnan and Li, Dongxu and Joty, Shafiq and Xu, Ran and Savarese, Silvio and Xiong, Caiming and Niebles, Juan Carlos},
+  booktitle={ECCV},
+  year={2024}
+}
+
+@misc{macawllm,
+  title={{Macaw-LLM}: Multi-Modal Language Modeling with Image, Audio, Video, and Text Integration},
+  author={Lyu, Chenyang and Wu, Minghao and Wang, Longyue and Huang, Xinting and Liu, Bingshuai and Du, Zefeng and Shi, Shuming and Tu, Zhaopeng},
+  eprint={2306.09093},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{avllm,
+  title={Audio-Visual {LLM} for Video Understanding},
+  author={Shu, Fangxun and Zhang, Lei and Jiang, Hao and Xie, Cihang},
+  eprint={2312.06720},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@inproceedings{avicuna,
+  title={{AVicuna}: Audio-Visual {LLM} with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue},
+  booktitle={AAAI},
+  author={Tang, Yunlong and Shimada, Daiki and Bi, Jing and Xu, Chenliang},
+  year={2025}
+}
+
+@inproceedings{Dolphin,
+  title={Aligned Better, Listen Better for Audio-Visual Large Language Models},
+  author={Guo, Yuxin and Ma, Shuailei and Ma, Shijie and Bao, Xiaoyi and Xie, Chen-Wei and Zheng, Kecheng and Weng, Tingyu and Sun, Siyang and Zheng, Yun and Zou, Wei},
+  booktitle={ICLR},
+  year={2025}
+}
+
+@inproceedings{emotionllama,
+  title={{Emotion-LLaMA}: Multimodal Emotion Recognition and Reasoning with Instruction Tuning},
+  author={Cheng, Zebang and Cheng, Zhi-Qi and He, Jun-Yan and Sun, Jingdong and Wang, Kai and Lin, Yuxiang and Lian, Zheng and Peng, Xiaojiang and Hauptmann, Alexander},
+  booktitle={NeurIPS},
+  year={2024},
+  pages={110805--110853},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@misc{imagebindllm,
+  title={{ImageBind-LLM}: Multi-modality Instruction Tuning},
+  author={Han, Jiaming and Zhang, Renrui and Shao, Wenqi and Gao, Peng and Xu, Peng and Xiao, Han and Zhang, Kaipeng and Liu, Chris and others},
+  eprint={2309.03905},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{CREMA,
+  title={{CREMA}: Generalizable and Efficient Video-Language Reasoning via Multimodal Modular Fusion},
+  author={Yu, Shoubin and Yoon, Jaehong and Bansal, Mohit},
+  year={2024},
+  eprint={2402.05889},
+  archivePrefix={arXiv},
+}
+
+@misc{unimoe,
+  title={{Uni-MoE}: Scaling Unified Multimodal {LLMs} with Mixture of Experts},
+  author={Li, Yunxin and Jiang, Shenyuan and Hu, Baotian and Wang, Longyue and Zhong, Wanqi and Luo, Wenhan and Ma, Lin and Zhang, Min},
+  eprint={2405.11273},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{MultiPLY,
+  title={{MultiPLY}: A Multisensory Object-Centric Embodied Large Language Model in {3D} World},
+  author={Hong, Yining and Zheng, Zishuo and Chen, Peihao and Wang, Yian and Li, Junyan and Gan, Chuang},
+  booktitle={CVPR},
+  year={2024}
+}
+
+% --- Audio-only Understanding with LLMs ---
+
+@misc{deshmukh2023pengi,
+  title={{Pengi}: An Audio Language Model for Audio Tasks},
+  author={Deshmukh, Soham and Elizalde, Benjamin and Singh, Rita and Wang, Huaming},
+  eprint={2305.11834},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+
+@misc{shu2023llasm,
+  title={{LLaSM}: Large Language and Speech Model},
+  author={Shu, Yu and Dong, Siwei and Chen, Guangyao and Huang, Wenhao and Zhang, Ruihua and Shi, Daochen and Xiang, Qiqi and Shi, Yemin},
+  eprint={2308.15930},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{omnivinci2025,
+  title={{OmniVinci}: Enhancing Architecture and Data for Omni-Modal Understanding {LLM}},
+  author={Ye, Hanrong and Yang, Chao-Han Huck and Goel, Arushi and Huang, Wei and Zhu, Ligeng and Su, Yuanhang and Lin, Sean and Cheng, An-Chieh and Wan, Zhen and Tian, Jinchuan and others},
+  eprint={2510.15870},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{ePalm,
+  title={{eP-ALM}: Efficient Perceptual Augmentation of Language Models},
+  author={Shukor, Mustafa and Dancette, Corentin and Cord, Matthieu},
+  year={2023},
+  booktitle={ICCV},
+}
+
+@misc{anymal,
+  title={{AnyMAL}: An Efficient and Scalable Any-Modality Augmented Language Model},
+  author={Moon, Seungwhan and Madotto, Andrea and Lin, Zhaojiang and Nagarajan, Tushar and Smith, Matt and Jain, Shashank and Yeh, Chun-Fu and Murugesan, Prakash and Heidari, Peyman and Liu, Yue and others},
+  eprint={2309.16058},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+% --- Unified AR-only Models ---
+
+@inproceedings{sunemu,
+  title={{Emu}: Generative Pretraining in Multimodality},
+  author={Sun, Quan and Yu, Qiying and Cui, Yufeng and Zhang, Fan and Zhang, Xiaosong and Wang, Yueze and Gao, Hongcheng and Liu, Jingjing and Huang, Tiejun and Wang, Xinlong},
+  booktitle={ICLR},
+  year={2024},
+  pages={12352--12380},
+  address={Vienna, Austria}
+}
+
+@misc{jin2023unified,
+  title={Unified Language-Vision Pretraining in {LLM} with Dynamic Discrete Visual Tokenization},
+  author={Jin, Yang and Xu, Kun and Chen, Liwei and Liao, Chao and Tan, Jianchao and Huang, Quzhe and Chen, Bin and Lei, Chenyi and Liu, An and Song, Chengru and others},
+  eprint={2309.04669},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{dong2023dreamllm,
+  title={{DreamLLM}: Synergistic Multimodal Comprehension and Creation},
+  author={Dong, Runpei and Han, Chunrui and Peng, Yuang and Qi, Zekun and Ge, Zheng and Yang, Jinrong and Zhao, Liang and Sun, Jianjian and Zhou, Hongyu and Wei, Haoran and others},
+  eprint={2309.11499},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{ge2023planting,
+  title={Planting a Seed of Vision in Large Language Model},
+  author={Ge, Yuying and Ge, Yixiao and Zeng, Ziyun and Wang, Xintao and Shan, Ying},
+  eprint={2307.08041},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{ge2023making,
+  title={Making {LLaMA} See and Draw with {SEED} Tokenizer},
+  author={Ge, Yuying and Zhao, Sijie and Zeng, Ziyun and Ge, Yixiao and Li, Chen and Wang, Xintao and Shan, Ying},
+  eprint={2310.01218},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{chern2024anole,
+  title={{ANOLE}: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation},
+  author={Chern, Ethan and Su, Jiadi and Ma, Yan and Liu, Pengfei},
+  eprint={2407.06135},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{li2024synergen,
+  title={{SynerGen-VL}: Towards Synergistic Image Understanding and Generation with Vision Experts and Token Folding},
+  author={Li, Hao and Tian, Changyao and Shao, Jie and Zhu, Xizhou and Wang, Zhaokai and Zhu, Jinguo and Dou, Wenhan and Wang, Xiaogang and Li, Hongsheng and Lu, Lewei and others},
+  eprint={2412.09604},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{wang2024illume,
+  title={{ILLUME}: Illuminating Your {LLMs} to See, Draw, and Self-Enhance},
+  author={Wang, Chunwei and Lu, Guansong and Yang, Junwei and Huang, Runhui and Han, Jianhua and Hou, Lu and Zhang, Wei and Xu, Hang},
+  eprint={2412.06673},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{chen2025blip3,
+  title={{BLIP3-o}: A Family of Fully Open Unified Multimodal Models -- Architecture, Training and Dataset},
+  author={Chen, Jiuhai and Xu, Zhiyang and Pan, Xichen and Hu, Yushi and Qin, Can and Goldstein, Tom and Huang, Lifu and Zhou, Tianyi and Xie, Saining and Savarese, Silvio and others},
+  eprint={2505.09568},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{pan2025transfer,
+  title={Transfer between Modalities with {MetaQueries}},
+  author={Pan, Xichen and Shukla, Satya Narayan and Singh, Aashu and Zhao, Zhuokai and Mishra, Shlok Kumar and Wang, Jialiang and Xu, Zhiyang and Chen, Jiuhai and Li, Kunpeng and Juefei-Xu, Felix and others},
+  eprint={2504.06256},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{wu2025harmonizing,
+  title={Harmonizing Visual Representations for Unified Multimodal Understanding and Generation},
+  author={Wu, Size and Zhang, Wenwei and Xu, Lumin and Jin, Sheng and Wu, Zhonghua and Tao, Qingyi and Liu, Wentao and Li, Wei and Loy, Chen Change},
+  eprint={2503.21979},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+
+% --- Diffusion-only Unified Models ---
+
+@misc{li2024dual,
+  title={Dual Diffusion for Unified Image Generation and Understanding},
+  author={Li, Zijie and Li, Henry and Shi, Yichun and Farimani, Amir Barati and Kluger, Yuval and Yang, Linjie and Wang, Peng},
+  eprint={2501.00289},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{wang2025fudoki,
+  title={{FUDOKI}: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities},
+  author={Wang, Jin and Lai, Yao and Li, Aoxue and Zhang, Shifeng and Sun, Jiacheng and Kang, Ning and Wu, Chengyue and Li, Zhenguo and Luo, Ping},
+  eprint={2505.20147},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{shi2025muddit,
+  title={{Muddit}: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model},
+  author={Shi, Qingyu and Bai, Jinbin and Zhao, Zhuoran and Chai, Wenhao and Yu, Kaidong and Wu, Jianzong and Song, Shuangyong and Tong, Yunhai and Li, Xiangtai and Li, Xuelong and others},
+  eprint={2505.23606},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+% --- Hybrid AR+Diffusion Unified Models ---
+
+@misc{chen2025janus,
+  title={{Janus-Pro}: Unified Multimodal Understanding and Generation with Data and Model Scaling},
+  author={Chen, Xiaokang and Wu, Zhiyu and Liu, Xingchao and Pan, Zizheng and Liu, Wen and Xie, Zhenda and Yu, Xingkai and Ruan, Chong},
+  eprint={2501.17811},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{xie2025showo2,
+  title={{Show-o2}: Improved Native Unified Multimodal Models},
+  author={Xie, Jinheng and Yang, Zhenheng and Shou, Mike Zheng},
+  eprint={2506.15564},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{zhuang2025vargpt,
+  title={{VARGPT}: Unified Understanding and Generation in a Visual Autoregressive Multimodal Large Language Model},
+  author={Zhuang, Xianwei and Xie, Yuxin and Deng, Yufan and Liang, Liming and Ru, Jinghan and Yin, Yuguo and Zou, Yuexian},
+  eprint={2501.12327},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{xie2024muse,
+  title={{MUSE-VL}: Modeling Unified {VLM} through Semantic Discrete Encoding},
+  author={Xie, Rongchang and Du, Chen and Song, Ping and Liu, Chang},
+  eprint={2411.17762},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{qu2024tokenflow,
+  title={{Tokenflow}: Unified Image Tokenizer for Multimodal Understanding and Generation},
+  author={Qu, Liao and Zhang, Huichao and Liu, Yiheng and Wang, Xu and Jiang, Yi and Gao, Yiming and Ye, Hu and Du, Daniel K and Yuan, Zehuan and Wu, Xinglong},
+  eprint={2412.03069},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@inproceedings{yang2024mmar,
+  title={{MMAR}: Towards Lossless Multi-Modal Auto-Regressive Probabilistic Modeling},
+  author={Yang, Jian and Yin, Dacheng and Zhou, Yizhou and Rao, Fengyun and Zhai, Wei and Cao, Yang and Zha, Zheng-Jun},
+  year={2025},
+  booktitle={CVPR},
+  pages={7974--7985},
+  doi={10.1109/CVPR52734.2025.00747},
+}
+
+@misc{fan2024fluid,
+  title={Unified Autoregressive Visual Generation and Understanding with Continuous Tokens},
+  author={Fan, Lijie and Li, Tianhong and others},
+  eprint={2503.13436},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{zou2025omnimamba,
+  title={{OmniMamba}: Efficient and Unified Multimodal Understanding and Generation via State Space Models},
+  author={Zou, Jialv and Liao, Bencheng and Zhang, Qian and Liu, Wenyu and Wang, Xinggang},
+  eprint={2503.08686},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+% --- Tool-Augmented LLM Systems ---
+
+@inproceedings{shen2023hugginggpt,
+  title={{HuggingGPT}: Solving {AI} Tasks with {ChatGPT} and its Friends in {HuggingFace}},
+  author={Shen, Yongliang and Song, Kaitao and Tan, Xu and Li, Dongsheng and Lu, Weiming and Zhuang, Yueting},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={38154--38180},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
+
+@misc{huang2023audiogpt,
+  title={{AudioGPT}: Understanding and Generating Speech, Music, Sound, and Talking Head},
+  author={Huang, Rongjie and Li, Mingze and Yang, Dongchao and Shi, Jiatong and Chang, Xuankai and Ye, Zhenhui and Wu, Yuning and Hong, Zhiqing and Huang, Jiawei and Liu, Jinglin and others},
+  eprint={2304.12995},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{wu2023visual,
+  title={Visual {ChatGPT}: Talking, Drawing and Editing with Visual Foundation Models},
+  author={Wu, Chenfei and Yin, Shengming and Qi, Weizhen and Wang, Xiaodong and Tang, Zecheng and Duan, Nan},
+  eprint={2303.04671},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+@misc{yu2023musicagent,
+  title={{MusicAgent}: An {AI} Agent for Music Understanding and Generation with Large Language Models},
+  author={Yu, Dingyao and Song, Kaitao and Lu, Peiling and He, Tianyu and Tan, Xu and Ye, Wei and Zhang, Shikun and Bian, Jiang},
+  eprint={2310.11954},
+  archivePrefix={arXiv},
+  year={2023}
+}
+
+% --- Omni / Any-to-Any Models ---
+
+@misc{ai2025mingomni,
+  title={Ming-Omni: A Unified Multimodal Model for Perception and Generation},
+  author={{Inclusion AI} and Gong, Biao and Zou, Cheng and Zheng, Chuanyang and Zhou, Chunluan and Yan, Canxiang and Jin, Chunxiang and Shen, Chunjie and Zheng, Dandan and Wang, Fudong and others},
+  eprint={2506.09344},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+
+@misc{Qwen3-Omni,
+  title={{Qwen3-Omni} Technical Report},
+  author={{Qwen Team}},
+  eprint={2509.17765},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+% --- Benchmarks ---
+
+@inproceedings{li2024omnibench,
+  title={{OmniBench}: Towards The Future of Universal Omni-Language Models},
+  author={Li, Yizhi and Ma, Yinghao and Zhang, Ge and Yuan, Ruibin and Zhu, Kang and Guo, Hangyu and Liang, Yiming and Liu, Jiaheng and others},
+  booktitle={NeurIPS},
+  year={2025},
+  pages={34822--34851},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+% ── Audio Pretraining Datasets ──────────────────────────────────────────
+
+@inproceedings{panayotov2015librispeech,
+  title={{LibriSpeech}: An {ASR} Corpus Based on Public Domain Audio Books},
+  author={Panayotov, Vassil and Chen, Guoguo and Povey, Daniel and Khudanpur, Sanjeev},
+  booktitle={ICASSP},
+  pages={5206--5210},
+  year={2015},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{kahn2020librilight,
+  title={Libri-Light: A Benchmark for {ASR} with Limited or No Supervision},
+  author={Kahn, Jacob and Riviere, Morgane and Zheng, Weiyi and Kharitonov, Evgeny and Xu, Qiantong and Mazar{\'e}, Pierre-Emmanuel and Karadayi, Julien and Liptchinsky, Vitaliy and Collobert, Ronan and Fuegen, Christian and others},
+  booktitle={ICASSP},
+  pages={7669--7673},
+  year={2020},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{chen2021gigaspeech,
+  title={{GigaSpeech}: An Evolving, Multi-domain {ASR} Corpus with 10,000 Hours of Transcribed Audio},
+  author={Chen, Guoguo and Chai, Shuzhou and Wang, Guanbo and Du, Jiayu and Zhang, Wei-Qiang and Weng, Chao and Su, Dan and Povey, Daniel and Trmal, Jan and Zhang, Junbo and others},
+  booktitle={Interspeech},
+  pages={3670--3674},
+  year={2021},
+  publisher={ISCA},
+  address={Baixas, France},
+}
+
+@article{mei2024wavcaps,
+  title={{WavCaps}: A {ChatGPT}-Assisted Weakly-Labelled Audio Captioning Dataset for Audio-Language Multimodal Research},
+  author={Mei, Xinhao and Meng, Chutong and Liu, Haohe and Kong, Qiuqiang and Ko, Tom and Zhao, Chengqi and Plumbley, Mark D. and Zou, Yuexian and Wang, Wenwu},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume={32},
+  pages={1681--1693},
+  year={2024}
+}
+
+@inproceedings{law2009evaluation,
+  title={Evaluation of Algorithms Using Games: The Case of Music Tagging},
+  author={Law, Edith and West, Kris and Mandel, Michael I. and Bay, Mert and Downie, J. Stephen},
+  booktitle={Proc. International Society for Music Information Retrieval Conference (ISMIR)},
+  pages={387--392},
+  year={2009},
+  publisher={International Society for Music Information Retrieval},
+  address={Kobe, Japan}
+}
+
+@inproceedings{he2022mae,
+  title={Masked Autoencoders Are Scalable Vision Learners},
+  author={He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Doll{\'a}r, Piotr and Girshick, Ross},
+  booktitle={CVPR},
+  pages={15979--15988},
+  year={2022},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  doi={10.1109/CVPR52688.2022.01553},
+}
+
+@misc{favor,
+  author       = {Guangzhi Sun and Wenyi Yu and Changli Tang and Xianzhao Chen and Tian Tan and Wei Li and Lu Lu and Zejun Ma and Chao Zhang},
+  title        = {Fine-grained Audio-Visual Joint Representations for Multimodal Large Language Models},
+  year         = {2023},
+  eprint       = {2310.05863},
+  archivePrefix={arXiv}
+}
+
+@inproceedings{liu2024evalcrafter,
+  author       = {Yaofang Liu and Xiaodong Cun and Xuebo Liu and Xintao Wang and Yong Zhang and Haoxin Chen and Yang Liu and Tieyong Zeng and Raymond Chan and Ying Shan},
+  title        = {{EvalCrafter}: Benchmarking and Evaluating Large Video Generation Models},
+  booktitle    = {CVPR},
+  pages={22139--22149},
+  year         = {2024},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@article{wang2004ssim,
+  title={Image quality assessment: from error visibility to structural similarity},
+  author={Wang, Zhou and Bovik, Alan C. and Sheikh, Hamid R. and Simoncelli, Eero P.},
+  journal={IEEE Transactions on Image Processing},
+  volume={13},
+  number={4},
+  pages={600--612},
+  year={2004}
+}
+
+@inproceedings{zhang2018lpips,
+  title={The Unreasonable Effectiveness of Deep Features as a Perceptual Metric},
+  author={Zhang, Richard and Isola, Phillip and Efros, Alexei A. and Shechtman, Eli and Wang, Oliver},
+  booktitle={CVPR},
+  year={2018},
+  pages={586--595},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{rix2001pesq,
+  title={Perceptual evaluation of speech quality ({PESQ})-a new method for speech quality assessment of telephone networks and codecs},
+  author={Rix, Antony W. and Beerends, John G. and Hollier, Michael P. and Hekstra, Andries P.},
+  booktitle={ICASSP},
+  year={2001},
+  pages={749--752},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  doi={10.1109/ICASSP.2001.941023},
+}
+
+@inproceedings{taal2010stoi,
+  title={A Short-Time Objective Intelligibility Measure for Time-Frequency Weighted Noisy Speech},
+  author={Taal, Cees H. and Hendriks, Richard C. and Heusdens, Richard and Jensen, Jesper},
+  booktitle={ICASSP},
+  year={2010},
+  pages={4214--4217},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{chung2017syncnet,
+  title={Out of Time: Automated Lip Sync in the Wild},
+  author={Chung, Joon Son and Zisserman, Andrew},
+  booktitle={ACCV Workshops},
+  year={2017},
+  pages={251--263},
+  publisher={Springer},
+  address={Cham, Switzerland},
+}
+
+@inproceedings{prajwal2020wav2lip,
+  title={A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild},
+  author={Prajwal, K. R. and Mukhopadhyay, Rudrabha and Namboodiri, Vinay P. and Jawahar, C. V.},
+  booktitle={ACM MM},
+  year={2020},
+  pages={484--492},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA},
+}
+
+@inproceedings{copet2023musicgen,
+  title={Simple and Controllable Music Generation},
+  author={Copet, Jade and Kreuk, Felix and Gat, Itai and Remez, Tal and Kant, David and Synnaeve, Gabriel and Adi, Yossi and D{\'e}fossez, Alexandre},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={47704--47720},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+  doi={10.52202/075280-2066},
+}
+
+@article{liu2024audioldm2,
+  title={{AudioLDM} 2: Learning Holistic Audio Generation with Self-supervised Pretraining},
+  author={Liu, Haohe and Yuan, Yi and Liu, Xubo and Mei, Xinhao and Kong, Qiuqiang and Tian, Qiao and Wang, Yuping and Wang, Wenwu and Wang, Yuxuan and Plumbley, Mark D.},
+  year={2024},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume={32},
+  pages={2871--2883},
+}
+
+@inproceedings{evans2024stableaudio,
+  title={Stable Audio Open},
+  author={Evans, Zach and Parker, Julian D. and Carr, CJ and Zukowski, Zack and Taylor, Josiah and Pons, Jordi},
+  booktitle={ICASSP},
+  year={2025},
+  pages={1--5},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  eprint={2407.14358},
+  archivePrefix={arXiv},
+}
+
+@inproceedings{ghosal2023tango,
+  title={Text-to-Audio Generation using Instruction Guided Latent Diffusion Model},
+  author={Ghosal, Deepanway and Majumder, Navonil and Mehrish, Ambuj and Poria, Soujanya},
+  booktitle={ACM MM},
+  year={2023},
+  pages={3590--3598},
+  publisher={Association for Computing Machinery (ACM), New York, NY, USA},
+  address={Ottawa, ON, Canada}
+}
+
+@inproceedings{huang2023makeanaudio,
+  title={Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models},
+  author={Huang, Rongjie and Huang, Jiawei and Yang, Dongchao and Ren, Yi and Liu, Luping and Li, Mingze and Ye, Zhenhui and Liu, Jinglin and Yin, Xiang and Zhao, Zhou},
+  booktitle={ICML},
+  year={2023},
+  pages={13916--13932},
+  publisher={PMLR},
+  address={Honolulu, Hawaii, USA}
+}
+
+
+
+@misc{xu2025qwen25omni,
+  title={{Qwen2.5-Omni} Technical Report},
+  author={Xu, Jin and others},
+  eprint={2503.20215},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{fu2025vita,
+  title={{VITA-1.5}: Towards {GPT-4o} Level Real-Time Vision and Speech Interaction},
+  booktitle={NeurIPS},
+  author={Fu, Chaoyou and others},
+  year={2025}
+}
+
+@misc{Megrez-3B-Omni,
+  title={{Megrez-3B-Omni}: Efficient Omni-Modal Foundation Model},
+  author={{Infinigence AI}},
+  year={2024},
+  howpublished={\url{https://github.com/infinigence/Infini-Megrez-Omni}}
+}
+
+@misc{zhong2024lyra,
+  title={Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition},
+  author={Zhong, Zhisheng and others},
+  eprint={2412.09501},
+  archivePrefix={arXiv},
+  year={2024}
+}
+
+@misc{yao2024minicpm,
+  title={{MiniCPM-o} 2.6: A {GPT-4o} Level {MLLM} for Vision, Speech and Multimodal Live Streaming on Your Phone},
+  author={{OpenBMB}},
+  year={2025},
+  howpublished={Model card, \url{https://huggingface.co/openbmb/MiniCPM-o-2_6}}
+}
+
+@misc{li2025baichuan,
+  title={Baichuan-Omni-1.5 Technical Report},
+  author={Li, Yadong and others},
+  eprint={2501.15368},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{wang2024mio,
+  title={{MIO}: A Foundation Model on Multimodal Tokens},
+  booktitle={EMNLP},
+  author={Wang, Zekun and others},
+  year={2025}
+}
+
+@article{mirsky2021deepfakes,
+  title={The Creation and Detection of Deepfakes: A Survey},
+  author={Mirsky, Yisroel and Lee, Wenke},
+  journal={ACM Computing Surveys},
+  volume={54},
+  number={1},
+  pages={1--41},
+  year={2021},
+  publisher={ACM}
+}
+
+@inproceedings{yin2025videoscaling,
+  title={Towards Precise Scaling Laws for Video Diffusion Transformers},
+  author={Yin, Yuanyang and Zhao, Yaqi and Zheng, Mingwu and others},
+  booktitle={CVPR},
+  year={2025},
+  pages={18155--18165},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{shukor2025nativescaling,
+  title={Scaling Laws for Native Multimodal Models},
+  author={Shukor, Mustafa and others},
+  booktitle={ICCV},
+  note={arXiv:2504.07951},
+  year={2025},
+  pages={12--23},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@misc{openai2025sora2,
+  title={Sora 2 System Card},
+  author={{OpenAI}},
+  howpublished={\url{https://openai.com/index/sora-2-system-card/}},
+  year={2025}
+}
+
+@techreport{deepmind2025veo3,
+  author = {{Google DeepMind}},
+  title={{Veo}: A Text-to-Video Generation System},
+  institution = {Google DeepMind},
+  year = {2025},
+  month = {May},
+  url = {https://storage.googleapis.com/deepmind-media/veo/Veo-3-Tech-Report.pdf},
+}
+
+@inproceedings{worldsense2025,
+  title={{WorldSense}: Evaluating Real-world Omnimodal Understanding for Multimodal {LLMs}},
+  author={Hong, Jack and Yan, Shilin and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Xie, Weidi},
+  booktitle={ICLR},
+  year={2026},
+  pages={52423--52443},
+  address={Rio de Janeiro, Brazil}
+}
+
+@misc{dailyomni2025,
+  title={Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities},
+  author={Zhou, Ziwei and Wang, Rui and Wu, Zuxuan and Jiang, Yu-Gang},
+  eprint={2505.17862},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{omnivideobench2025,
+  title={{OmniVideoBench}: Towards Audio-Visual Understanding Evaluation for Omni {MLLMs}},
+  author={Li, Caorui and Chen, Yu and Ji, Yiyan and Xu, Jin and Cui, Zhenyu and Li, Shihao and Zhang, Yuanxing and Wang, Wentao and Song, Zhenghao and Zhang, Dingling and others},
+  eprint={2510.10689},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{sun2024emu2,
+  title={Generative Multimodal Models are In-Context Learners},
+  author={Sun, Quan and Cui, Yufeng and Zhang, Xiaosong and Zhang, Fan and Yu, Qiying and Wang, Yueze and Rao, Yongming and Liu, Jingjing and Huang, Tiejun and Wang, Xinlong},
+  booktitle={CVPR},
+  year={2024},
+  pages={14398--14409},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+}
+
+@inproceedings{audiox,
+  title={{AudioX}: A Unified Framework for Anything-to-Audio Generation},
+  booktitle={ICLR},
+  author={Tian, Zeyue and Liu, Zhaoyang and Jin, Yizhu and Yuan, Ruibin and Xue, Liumeng and Tan, Xu and Chen, Qifeng and Xue, Wei and Guo, Yike},
+  year={2026}
+}
+
+@misc{audioomni2026,
+  title={{Audio-Omni}: Extending Multi-modal Understanding to Versatile Audio Generation and Editing},
+  author={Tian, Zeyue and Yang, Binxin and Liu, Zhaoyang and Zhang, Jiexuan and Yuan, Ruibin and Yin, Hubery and Chen, Qifeng and Li, Chen and Lv, Jing and Xue, Wei and Guo, Yike},
+  eprint={2604.10708},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@misc{unison,
+  title={{UNISON}: A Unified Sound Generation and Editing Framework via Deep {LLM} Fusion},
+  author={Li, Zhaoqing and Xu, Haoning and Su, Jingran and Liu, Yaofang and Rao, Zhefan and Wang, Huimeng and Deng, Jiajun and Wang, Tianzi and Jin, Zengrui and Liu, Rui and Che, Haoxuan and Liu, Xunying},
+  eprint={2605.31530},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@misc{uniavc2026,
+  title={{UniAVC}: Unified Audio-Video Creation via Progressive Training and Asymmetric Scheduling},
+  author={Pham, Kien T. and Liu, Yuhao and Choi, Chong Hou and He, Zhenqi and Wang, Yanghao and Lei, Chenyang and Liu, Rui and Chen, Qifeng and Chen, Long},
+  eprint={2610.24791},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@misc{minimaxh3,
+  author = {{MiniMax}},
+  title = {{MiniMax-H3}: Open Omni-Modal Video-Audio Generation},
+  year = {2026},
+  howpublished = {\url{https://www.minimax.io/blog/minimax-h3}}
+}
+
+@misc{pikah3flex,
+  author = {{Pika Labs}},
+  title={Introducing {Pika H3 Flex}},
+  year = {2026},
+  url={https://pika.art/blog/pika-h3-flex},
+}
+
+@misc{liveavatar2025,
+  author = {Huang, Yubo and Guo, Hailong and Wu, Fangtai and others},
+  title = {{Live Avatar}: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length},
+  eprint = {2512.04677},
+  archivePrefix = {arXiv},
+  year = {2025}
+}
+
+@misc{interactiveavatar2026,
+  author = {Song, Quanyue and He, Yishan and Zhang, Yanfei and others},
+  title = {{InteractiveAvatar}: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars},
+  eprint = {2606.22905},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{flowactr1,
+  author = {Wang, Lizhen and Zhu, Yongming and Ge, Zhipeng and others},
+  title = {{FlowAct-R1}: Towards Interactive Humanoid Video Generation},
+  eprint = {2601.10103},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{flowactr2,
+  author = {Huang, Ziyao and Rong, Zhengkun and Qin, Shiyang and others},
+  title = {{FlowAct-R2}: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning},
+  eprint = {2609.35728},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{taomate2026,
+  author = {Gan, Qijun and Zhang, Chenwei and Jin, Meiguang and others},
+  title = {{TaoMate}: Anchor-Guided Memory Bridging Evolving and Reference States for Real-Time Audio-Video Digital Human Generation},
+  eprint = {2607.24359},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{taomatehd2026,
+  author = {Gan, Qijun and Zhang, Chenwei and Li, Xinyang and others},
+  title = {{TaoMate-HD}: Progressive-Resolution Autoregressive Audio-Video Generation},
+  eprint = {2611.03394},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{omniliveavatar2026,
+  author = {Zhu, Lunjie and Ge, Xingtong and Lin, Fangyu and others},
+  title = {{Omni-LiveAvatar}: Minute-Level Real-Time Streaming Joint Audio-Video Avatar Generation},
+  eprint = {2608.13602},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{wanstreamer01,
+  author = {Huang, Lianghua and Wu, Zhi-Fan and Wang, Wei and others},
+  title = {{Wan-Streamer v0.1}: End-to-end Real-time Interactive Foundation Models},
+  eprint = {2606.25041},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{wanstreamer02,
+  author = {Huang, Lianghua and Wu, Zhi-Fan and Shi, Yupeng and others},
+  title = {{Wan-Streamer v0.2}: Higher Resolution, Same Latency},
+  eprint = {2607.04443},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{wanstreamer03,
+  author = {Huang, Lianghua and Wu, Zhi-Fan and Shi, Yupeng and others},
+  title = {Video = World + Event Stream},
+  eprint = {2607.15038},
+  archivePrefix = {arXiv},
+  year = {2026}
+}
+
+@misc{ltx23,
+  author = {{Lightricks}},
+  title = {{LTX-2.3}},
+  year = {2026},
+  howpublished = {\url{https://github.com/Lightricks/LTX-2}}
+}
+
+@misc{ltx25,
+  author = {{Lightricks}},
+  title={{LTX-2.5}},
+  year = {2026},
+  url={https://huggingface.co/Lightricks/LTX-2.5},
+}
+
+@misc{apollo_javg,
+  title={{Apollo}: Unified Multi-Task Audio-Video Joint Generation},
+  author={Wang, Jun and Qiang, Chunyu and Guo, Yuxin and Wang, Yiran and Zeng, Xijuan and Deng, Feng},
+  eprint={2601.04151},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@inproceedings{jova2025,
+  title={{JoVA}: Unified Multimodal Learning for Joint Video-Audio Generation and Editing},
+  booktitle={ECCV},
+  author={Huang, Xiaohu and He, Haoyang and Zhou, Hao and Yang, Qiangpeng and Wen, Shilei and Han, Kai},
+  year={2026}
+}
+
+@inproceedings{avtok,
+  title={{AVTok}: {1D} Unified Tokenization for Holistic Audio-Video Generation},
+  author={Pham, Kien T. and Chen, I Chieh and Chen, Qifeng and Chen, Long},
+  booktitle={ECCV},
+  year={2026},
+  pages={165--183},
+  publisher={Springer},
+  address={Cham, Switzerland},
+}
+
+@inproceedings{vaswani2017attention,
+  title={Attention Is All You Need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  booktitle={NeurIPS},
+  year={2017},
+  pages={5998--6008},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@techreport{radford2019gpt2,
+  title={Language Models are Unsupervised Multitask Learners},
+  author={Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya},
+  year={2019},
+  institution={OpenAI},
+  address={San Francisco, CA, USA}
+}
+
+@inproceedings{brown2020gpt3,
+  title={Language Models are Few-Shot Learners},
+  author={Brown, Tom B and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and others},
+  booktitle={NeurIPS},
+  year={2020},
+  pages={1877--1901},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA}
+}
+
+@inproceedings{v2amapper,
+  title={{V2A-Mapper}: A Lightweight Solution for Vision-to-Audio Generation by Connecting Foundation Models},
+  author={Wang, Heng and Ma, Jianbo and Pascual, Santiago and Cartwright, Richard and Cai, Weidong},
+  booktitle={AAAI},
+  year={2024},
+  pages={15492--15501},
+  publisher={AAAI Press},
+  address={Washington, DC, USA},
+}
+
+@misc{foleybench2025,
+  title={{FoleyBench}: A Benchmark For Video-to-Audio Models},
+  author={Dixit, Satvik and Saito, Koichi and Zhong, Zhi and Mitsufuji, Yuki and Donahue, Chris},
+  eprint={2511.13219},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{multifoley2025,
+  title={Video-Guided Foley Sound Generation with Multimodal Controls},
+  author={Chen, Ziyang and Seetharaman, Prem and Russell, Bryan and Nieto, Oriol and Bourgin, David and Owens, Andrew and Salamon, Justin},
+  booktitle={CVPR},
+  year={2025},
+  pages={18770--18781},
+  doi={10.1109/CVPR52734.2025.01749},
+}
+
+@misc{mgaudio2025,
+  title={MGAudio: Model-Guided Dual-Role Alignment for High-Fidelity Open-Domain Video-to-Audio Generation},
+  author={Zhang, Kang and Pham, Trung X. and Lee, Suyeon and Niu, Axi and Senocak, Arda and Chung, Joon Son},
+  eprint={2510.24103},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{klingfoley2025,
+  title={Kling-Foley: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation},
+  author={Wang, Jun and Zeng, Xijuan and Qiang, Chunyu and others},
+  eprint={2506.19774},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{hallo3,
+  title={Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Video Diffusion Transformer},
+  author={Cui, Jiahao and Li, Hui and Zhan, Yun and Shang, Hanlin and Cheng, Kaihui and Ma, Yuqi and Mu, Shan and Zhou, Hang and Wang, Jingdong and Zhu, Siyu},
+  eprint={2412.00733},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@inproceedings{echomimic,
+  title={{EchoMimic}: Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditions},
+  author={Chen, Zhiyuan and Cao, Jiajiong and Chen, Zhiquan and Li, Yuming and Ma, Chenguang},
+  booktitle={AAAI},
+  year={2025}
+}
+
+@inproceedings{ye2024real3dportrait,
+  title={{Real3D-Portrait}: One-shot Realistic 3D Talking Portrait Synthesis},
+  author={Ye, Zhenhui and Zhong, Tianyun and Ren, Yi and others},
+  booktitle={ICLR},
+  year={2024},
+  pages={45673--45695},
+  address={Vienna, Austria}
+}
+
+@inproceedings{cui2024hallo2,
+  title={{Hallo2}: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation},
+  author={Cui, Jiahao and Li, Hui and Yao, Yao and Zhu, Hao and Shang, Hanlin and Cheng, Kaihui and Zhou, Hang and Zhu, Siyu and Wang, Jingdong},
+  booktitle={ICLR},
+  year={2025}
+}
+
+@misc{ditalker2025,
+  title={DiTalker: A Unified DiT-based Framework for High-Quality and Speaking Styles Controllable Portrait Animation},
+  author={Feng, He and Ma, Yongjia and Di, Donglin and Fan, Lei and Su, Tonghua and Wu, Xiangqian},
+  eprint={2508.06511},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{omniavatar2025,
+  title={OmniAvatar: Efficient Audio-Driven Avatar Video Generation with Adaptive Body Animation},
+  author={Gan, Qijun and Yang, Ruizi and Zhu, Jianke and Xue, Shaofei and Hoi, Steven},
+  eprint={2506.18866},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{universe1,
+  title={{UniVerse-1}: Unified Audio-Video Generation via Stitching of Experts},
+  author={Wang, Duomin and Zuo, Wei and Li, Aojie and Chen, Ling-Hao and Liao, Xinyao and Zhou, Deyu and Yin, Zixin and Dai, Xili and Jiang, Daxin and Yu, Gang},
+  eprint={2509.06155},
+  archivePrefix={arXiv},
+  year={2025}
+}
+
+@misc{omninft,
+  title={{OmniNFT}: Modality-wise Omni Diffusion Reinforcement for Joint Audio-Video Generation},
+  author={Zhang, Guohui and Ma, XiaoXiao and Huang, Jie and Xu, Hang and Yu, Hu and Fu, Siming and Li, Yuming and Xue, Zeyue and Song, Lin and Huang, Haoyang and Duan, Nan and Zhao, Feng},
+  eprint={2605.12480},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@misc{qin2026avi,
+  title={Audio-Visual Intelligence in Large Foundation Models},
+  author={Qin, You and Liu, Kai and Wu, Shengqiong and Wang, Kai and Deng, Shijian and Tian, Yapeng and Xiao, Junbin and Xing, Yazhou and Ma, Yinghao and Li, Bobo and Zimmermann, Roger and Cui, Lei and Wei, Furu and Luo, Jiebo and Fei, Hao},
+  eprint={2605.04045},
+  archivePrefix={arXiv},
+  year={2026}
+}
+
+@article{oquab2023dinov2,
+  title={{DINOv2}: Learning Robust Visual Features without Supervision},
+  author={Oquab, Maxime and Darcet, Timoth{\'e}e and Moutakanni, Th{\'e}o and Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and others},
+  journal={Transactions on Machine Learning Research},
+  year={2024}
+}
+
+@inproceedings{dai2023instructblip,
+  title={{InstructBLIP}: Towards General-purpose Vision-Language Models with Instruction Tuning},
+  author={Dai, Wenliang and Li, Junnan and Li, Dongxu and Tiong, Anthony Meng Huat and Zhao, Junqi and Wang, Weisheng and Li, Boyang and Fung, Pascale and Hoi, Steven},
+  booktitle={NeurIPS},
+  year={2023},
+  pages={49250--49267},
+  publisher={Curran Associates, Inc.},
+  address={Red Hook, NY, USA},
+}
