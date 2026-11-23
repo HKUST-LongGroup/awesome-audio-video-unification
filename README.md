@@ -1,11 +1,11 @@
-# Awesome Audio-Video Unification
+<h1 align="center">Awesome Audio-Video Unification</h1>
 
 <p align="center">
-  <a href="https://hkust.edu.hk/"><img src="src/hkust-color.png" alt="HKUST" height="56"></a>
+  <a href="https://hkust.edu.hk/"><img src="src/hkust-color.png" alt="HKUST" height="80"></a>
   &emsp;
-  <a href="https://cqf.io/lab.html"><img src="src/hkust-visual-intelligence-lab.png" alt="Visual Intelligence Lab at HKUST" height="56"></a>
+  <a href="https://cqf.io/lab.html"><img src="src/hkust-visual-intelligence-lab.png" alt="Visual Intelligence Lab at HKUST" height="80"></a>
   &emsp;
-  <a href="https://long-group.cse.ust.hk/"><img src="src/hkust-long-group.png" alt="LONG Group at HKUST" height="56"></a>
+  <a href="https://long-group.cse.ust.hk/"><img src="src/hkust-long-group.png" alt="LONG Group at HKUST" height="80"></a>
 </p>
 
 ## ✨ Survey Highlights
@@ -13,7 +13,7 @@
 > How do models understand sounding video, generate it, and combine both abilities?
 
 - **Unifying Audio-Video Understanding and Generation: Foundations, Taxonomies, and Architectures**  
-  Kien T. Pham · Zhenqi He · Yanghao Wang · Qifeng Chen · Long Chen  
+  [Kien T. Pham](https://tkpham.me/) · Zhenqi He · Yanghao Wang · Qifeng Chen · Long Chen  
   [📖 Survey](paper/arxiv.pdf) · [🗂️ Complete Taxonomy](src/taxonomy_complete.png) · [✒️ BibTeX](#bibtex)
 - **Three research pillars:** [Generation](#audio-video-generation) synthesizes one or both streams; [Understanding](#audio-video-understanding) interprets their joint content; [Unified Architectures](#unified-architectures) connect perception and synthesis.
 - **Shared foundations:** [Tokenization](#audio-video-tokenization), [Datasets](#awesome-datasets), and [Evaluation](#awesome-benchmarks-and-metrics) cover the representations, training data, and protocols used across those pillars.
@@ -34,7 +34,6 @@
 ## Table of Contents
 
 <!-- contents:start -->
-- [Cumulative Research Trends](#cumulative-research-trends)
 - [Research Catalog](#research-catalog)
   - [Awesome Papers](#awesome-papers)
     - [Audio-Video Generation](#audio-video-generation)
@@ -65,14 +64,6 @@
 - [BibTeX](#bibtex)
 <!-- contents:end -->
 
-## Cumulative Research Trends
-
-<p align="center">
-  <img src="src/trends.svg" alt="Stacked bars by taxonomy branch: cumulative entries grow from 10 in 2015 to 317 in 2026" width="720">
-</p>
-
-The chart counts entries in the survey’s taxonomy, not all publications in the field or all references in the catalog. The 2015 bar includes earlier work. [Download the data (CSV)](src/trends.csv).
-
 ## Research Catalog
 
 The catalog covers all 354 references cited in the survey. Each taxonomy leaf is ordered newest to oldest by the survey’s bibliography year, with titles used to break ties. A work can appear in multiple roles. Titles link to the paper or, for releases without a paper, the release documentation. A dash in Resources means no resource link was confirmed, not necessarily that none exists. A **GitHub** link points to a companion repository, not necessarily a released implementation.
@@ -80,8 +71,8 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
 <!-- catalog:start -->
 <table>
   <tr><th colspan="4" align="left"><a name="awesome-papers"></a><h3>Awesome Papers</h3></th></tr>
-  <tr><th colspan="4" align="left"><a name="audio-video-generation"></a><h4>Audio-Video Generation</h4></th></tr>
-  <tr><th colspan="4" align="left"><a name="video-to-audio-v2a"></a><h5>Video-to-Audio (V2A)</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="audio-video-generation"></a><h3>Audio-Video Generation</h3></th></tr>
+  <tr><th colspan="4" align="left"><a name="video-to-audio-v2a"></a><h3>Video-to-Audio (V2A)</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2604.10708"><strong>Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing</strong></a></td><td align="center">2026</td><td>arXiv</td><td><a href="https://github.com/ZeyueT/Audio-Omni">Code</a> · <a href="https://zeyuet.github.io/Audio-Omni">Project</a></td></tr>
   <tr><td><a href="https://openreview.net/forum?id=qjJWxK3yWo"><strong>AudioX: A Unified Framework for Anything-to-Audio Generation</strong></a></td><td align="center">2026</td><td>ICLR</td><td><a href="https://github.com/ZeyueT/AudioX">Code</a> · <a href="https://zeyuet.github.io/AudioX/">Project</a></td></tr>
@@ -100,7 +91,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2211.03089"><strong>I Hear Your True Colors: Image Guided Audio Generation</strong></a></td><td align="center">2023</td><td>ICASSP</td><td><a href="https://github.com/RoySheffer/im2wav">Code</a> · <a href="https://pages.cs.huji.ac.il/adiyoss-lab/im2wav/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2311.11255"><strong>M$^2$UGen: Multi-modal Music Understanding and Generation with the Power of Large Language Models</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/shansongliu/M2UGen">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2110.08791"><strong>Taming Visually Guided Sound Generation</strong></a></td><td align="center">2021</td><td>BMVC</td><td><a href="https://github.com/v-iashin/SpecVQGAN">Code</a> · <a href="http://v-iashin.github.io/SpecVQGAN">Project</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="audio-to-video-a2v"></a><h5>Audio-to-Video (A2V)</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="audio-to-video-a2v"></a><h3>Audio-to-Video (A2V)</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2601.10103"><strong>FlowAct-R1: Towards Interactive Humanoid Video Generation</strong></a></td><td align="center">2026</td><td>arXiv</td><td><a href="https://grisoon.github.io/FlowAct-R1/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2609.35728"><strong>FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning</strong></a></td><td align="center">2026</td><td>arXiv</td><td><a href="https://bone-11.github.io/Flowact-R2/">Project</a> · <a href="https://huggingface.co/spaces/ProAudience/FlowAct-R2">Demo</a></td></tr>
@@ -124,7 +115,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2211.12194"><strong>SadTalker: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation</strong></a></td><td align="center">2023</td><td>CVPR</td><td><a href="https://github.com/winfredy/sadtalker">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2309.04509"><strong>The Power of Sound (TPoS): Audio Reactive Video Generation with Stable Diffusion</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://ku-vai.github.io/TPoS/">Project</a></td></tr>
   <tr><td><a href="https://doi.org/10.1007/978-3-030-58583-9_42"><strong>Sound2Sight: Generating Visual Dynamics from Sound and Context</strong></a></td><td align="center">2020</td><td>ECCV</td><td>—</td></tr>
-  <tr><th colspan="4" align="left"><a name="joint-audio-video-generation"></a><h5>Joint Audio-Video Generation</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="joint-audio-video-generation"></a><h3>Joint Audio-Video Generation</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2601.04151"><strong>Apollo: Unified Multi-Task Audio-Video Joint Generation</strong></a></td><td align="center">2026</td><td>arXiv</td><td>—</td></tr>
   <tr><td><a href="https://pika.art/blog/pika-h3-flex"><strong>Introducing Pika H3 Flex</strong></a></td><td align="center">2026</td><td>—</td><td>—</td></tr>
@@ -159,8 +150,8 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2410.13720"><strong>Movie Gen: A Cast of Media Foundation Models</strong></a></td><td align="center">2024</td><td>arXiv</td><td><a href="https://github.com/facebookresearch/MovieGenBench">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2305.11846"><strong>Any-to-Any Generation via Composable Diffusion</strong></a></td><td align="center">2023</td><td>NeurIPS</td><td><a href="https://github.com/microsoft/i-Code/tree/main/i-Code-V3">Code</a> · <a href="https://codi-gen.github.io/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2212.09478"><strong>MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation</strong></a></td><td align="center">2023</td><td>CVPR</td><td><a href="https://github.com/researchmm/mm-diffusion">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="audio-video-understanding"></a><h4>Audio-Video Understanding</h4></th></tr>
-  <tr><th colspan="4" align="left"><a name="task-specific-models"></a><h5>Task-Specific Models</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="audio-video-understanding"></a><h3>Audio-Video Understanding</h3></th></tr>
+  <tr><th colspan="4" align="left"><a name="task-specific-models"></a><h3>Task-Specific Models</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Kim_Question-Aware_Gaussian_Experts_for_Audio-Visual_Question_Answering_CVPR_2025_paper.html"><strong>Question-Aware Gaussian Experts for Audio-Visual Question Answering</strong></a></td><td align="center">2025</td><td>CVPR</td><td><a href="https://github.com/AIM-SKKU/QA-TIGER">Code</a> · <a href="https://aim-skku.github.io/QA-TIGER/">Project</a></td></tr>
   <tr><td><a href="https://doi.org/10.1609/aaai.v39i14.33608"><strong>Towards Audio-Visual Navigation in Noisy Environments: A Large-Scale Benchmark Dataset and an Architecture Considering Multiple Sound-Sources</strong></a></td><td align="center">2025</td><td>AAAI</td><td>—</td></tr>
@@ -179,7 +170,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://doi.org/10.1007/978-3-030-01216-8_16"><strong>Audio-Visual Event Localization in Unconstrained Videos</strong></a></td><td align="center">2018</td><td>ECCV</td><td><a href="https://github.com/YapengTian/AVE-ECCV18">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/1712.06651"><strong>Objects that Sound</strong></a></td><td align="center">2018</td><td>ECCV</td><td>—</td></tr>
   <tr><td><a href="https://arxiv.org/abs/1804.03160"><strong>The Sound of Pixels</strong></a></td><td align="center">2018</td><td>ECCV</td><td><a href="https://github.com/hangzhaomit/Sound-of-Pixels">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="self-supervised-learning"></a><h5>Self-Supervised Learning</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="self-supervised-learning"></a><h3>Self-Supervised Learning</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Vyas_Pushing_the_Frontier_of_Audiovisual_Perception_with_Large-Scale_Multimodal_Correspondence_CVPR_2026_paper.html"><strong>Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning</strong></a></td><td align="center">2026</td><td>CVPR</td><td><a href="https://github.com/facebookresearch/perception_models">Code</a> · <a href="https://ai.meta.com/research/publications/pushing-the-frontier-of-audiovisual-perception-with-large-scale-multimodal-correspondence-learning/">Project</a> · <a href="https://huggingface.co/facebook/pe-a-frame-base">Models</a></td></tr>
   <tr><td><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Araujo_CAV-MAE_Sync_Improving_Contrastive_Audio-Visual_Mask_Autoencoders_via_Fine-Grained_Alignment_CVPR_2025_paper.html"><strong>Cav-mae sync: Improving contrastive audio-visual mask autoencoders via fine-grained alignment</strong></a></td><td align="center">2025</td><td>CVPR</td><td>—</td></tr>
@@ -193,7 +184,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://doi.org/10.1109/ICASSP43922.2022.9747631"><strong>AudioCLIP: Extending CLIP to Image, Text and Audio</strong></a></td><td align="center">2022</td><td>ICASSP</td><td><a href="https://github.com/AndreyGuzhov/AudioCLIP">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2207.06405"><strong>Masked Autoencoders that Listen</strong></a></td><td align="center">2022</td><td>NeurIPS</td><td><a href="https://github.com/facebookresearch/AudioMAE">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2103.00020"><strong>Learning Transferable Visual Models From Natural Language Supervision</strong></a></td><td align="center">2021</td><td>ICML</td><td><a href="https://github.com/openai/CLIP">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="mllm-generalists"></a><h5>MLLM Generalists</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="mllm-generalists"></a><h3>MLLM Generalists</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://proceedings.mlr.press/v306/sun26s.html"><strong>video-SALMONN S: Memory-Enhanced Streaming Audio-Visual LLM</strong></a></td><td align="center">2026</td><td>ICML</td><td>—</td></tr>
   <tr><td><a href="https://arxiv.org/abs/2504.02061"><strong>Aligned Better, Listen Better for Audio-Visual Large Language Models</strong></a></td><td align="center">2025</td><td>ICLR</td><td>—</td></tr>
@@ -228,8 +219,8 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2311.07919"><strong>Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/QwenLM/Qwen-Audio">Code</a></td></tr>
   <tr><td><a href="https://doi.org/10.18653/v1/2023.emnlp-demo.49"><strong>Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding</strong></a></td><td align="center">2023</td><td>EMNLP Demo</td><td><a href="https://github.com/damo-nlp-sg/video-llama">Code</a> · <a href="https://huggingface.co/spaces/DAMO-NLP-SG/Video-LLaMA">Demo</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2305.04160"><strong>X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/phellonchen/x-llm">Code</a> · <a href="https://x-llm.github.io">Project</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="unified-architectures"></a><h4>Unified Architectures</h4></th></tr>
-  <tr><th colspan="4" align="left"><a name="fully-autoregressive"></a><h5>Fully Autoregressive</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="unified-architectures"></a><h3>Unified Architectures</h3></th></tr>
+  <tr><th colspan="4" align="left"><a name="fully-autoregressive"></a><h3>Fully Autoregressive</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chen_EMOVA_Empowering_Language_Models_to_See_Hear_and_Speak_with_CVPR_2025_paper.html"><strong>EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions</strong></a></td><td align="center">2025</td><td>CVPR</td><td><a href="https://emova-ollm.github.io/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2503.21979"><strong>Harmonizing Visual Representations for Unified Multimodal Understanding and Generation</strong></a></td><td align="center">2025</td><td>arXiv</td><td><a href="https://github.com/wusize/Harmon">Code</a></td></tr>
@@ -244,14 +235,14 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2412.09604"><strong>SynerGen-VL: Towards Synergistic Image Understanding and Generation with Vision Experts and Token Folding</strong></a></td><td align="center">2024</td><td>arXiv</td><td>—</td></tr>
   <tr><td><a href="https://arxiv.org/abs/2312.17172"><strong>Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action</strong></a></td><td align="center">2024</td><td>CVPR</td><td><a href="https://github.com/allenai/unified-io-2">Code</a> · <a href="https://unified-io-2.allenai.org/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2402.08268"><strong>World model on million-length video and language with blockwise ringattention</strong></a></td><td align="center">2024</td><td>arXiv</td><td><a href="https://github.com/LargeWorldModel/LWM">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="fully-diffusion"></a><h5>Fully Diffusion</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="fully-diffusion"></a><h3>Fully Diffusion</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2505.20147"><strong>FUDOKI: Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities</strong></a></td><td align="center">2025</td><td>arXiv</td><td>—</td></tr>
   <tr><td><a href="https://arxiv.org/abs/2505.15809"><strong>MMaDA: Multimodal Large Diffusion Language Models</strong></a></td><td align="center">2025</td><td>NeurIPS</td><td><a href="https://github.com/Gen-Verse/MMaDA">Code</a> · <a href="https://huggingface.co/spaces/Gen-Verse/MMaDA">Demo</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2505.23606"><strong>Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model</strong></a></td><td align="center">2025</td><td>arXiv</td><td><a href="https://github.com/M-E-AGI-Lab/Muddit">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2503.20853"><strong>Unified Multimodal Discrete Diffusion</strong></a></td><td align="center">2025</td><td>arXiv</td><td>—</td></tr>
   <tr><td><a href="https://arxiv.org/abs/2501.00289"><strong>Dual Diffusion for Unified Image Generation and Understanding</strong></a></td><td align="center">2024</td><td>arXiv</td><td><a href="https://github.com/zijieli-Jlee/Dual-Diffusion">Code</a> · <a href="https://zijieli-jlee.github.io/dualdiff.github.io/">Project</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="decoupled-hybrid"></a><h5>Decoupled Hybrid</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="decoupled-hybrid"></a><h3>Decoupled Hybrid</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2606.02800"><strong>Cosmos 3: Omnimodal World Models for Physical AI</strong></a></td><td align="center">2026</td><td>arXiv</td><td><a href="https://github.com/NVIDIA/cosmos">Code</a> · <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/index.html">Project</a> · <a href="https://huggingface.co/collections/nvidia/cosmos3">Models</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2512.03034"><strong>MAViD: A Multimodal Framework for Audio-Visual Dialogue Understanding and Generation</strong></a></td><td align="center">2026</td><td>SIGGRAPH</td><td><a href="https://carlyx.github.io/MAViD/">Project</a></td></tr>
@@ -290,7 +281,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2310.01218"><strong>Making LLaMA See and Draw with SEED Tokenizer</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/AILab-CVC/SEED">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2307.08041"><strong>Planting a Seed of Vision in Large Language Model</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/AILab-CVC/SEED">Code</a> · <a href="https://huggingface.co/spaces/AILab-CVC/SEED-LLaMA">Demo</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2309.04669"><strong>Unified Language-Vision Pretraining in LLM with Dynamic Discrete Visual Tokenization</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/jy0205/LaVIT">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="modular--agentic"></a><h5>Modular / Agentic</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="modular--agentic"></a><h3>Modular / Agentic</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://openreview.net/pdf/462424e66f7fea533a443a35104ca1dae8e95518.pdf"><strong>Efficient Generative Multimodal Integration (EGMI): Enabling Audio Generation from Text-Image Pairs through Alignment with Large Language Models</strong></a></td><td align="center">2024</td><td>—</td><td>—</td></tr>
   <tr><td><a href="https://arxiv.org/abs/2406.15177"><strong>EmpathyEar: An Open-source Avatar Multimodal Empathetic Chatbot</strong></a></td><td align="center">2024</td><td>arXiv</td><td>—</td></tr>
@@ -305,8 +296,8 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/2303.17580"><strong>HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace</strong></a></td><td align="center">2023</td><td>NeurIPS</td><td><a href="https://github.com/microsoft/JARVIS">Code</a> · <a href="https://huggingface.co/spaces/microsoft/HuggingGPT">Demo</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2310.11954"><strong>MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/microsoft/muzic">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2303.04671"><strong>Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/microsoft/visual-chatgpt">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="audio-video-tokenization"></a><h4>Audio-Video Tokenization</h4></th></tr>
-  <tr><th colspan="4" align="left"><a name="audio-tokenizers"></a><h5>Audio Tokenizers</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="audio-video-tokenization"></a><h3>Audio-Video Tokenization</h3></th></tr>
+  <tr><th colspan="4" align="left"><a name="audio-tokenizers"></a><h3>Audio Tokenizers</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://doi.org/10.18653/v1/2025.acl-long.654"><strong>Language-Codec: Bridging Discrete Codec Representations and Speech Language Models</strong></a></td><td align="center">2025</td><td>ACL</td><td><a href="https://github.com/jishengpeng/languagecodec">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2407.14358"><strong>Stable Audio Open</strong></a></td><td align="center">2025</td><td>ICASSP</td><td><a href="https://github.com/Stability-AI/stable-audio-tools">Code</a> · <a href="https://stability-ai.github.io/stable-audio-open-demo/">Project</a> · <a href="https://huggingface.co/stabilityai/stable-audio-open-1.0">Models</a></td></tr>
@@ -325,7 +316,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://doi.org/10.21437/interspeech.2021-698"><strong>AST: Audio Spectrogram Transformer</strong></a></td><td align="center">2021</td><td>Interspeech</td><td><a href="https://github.com/YuanGongND/ast">Code</a></td></tr>
   <tr><td><a href="https://openreview.net/forum?id=UKprVqG8N7K"><strong>HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units</strong></a></td><td align="center">2021</td><td>IEEE/ACM Trans. Audio, Speech, Language Process.</td><td><a href="https://github.com/facebookresearch/fairseq">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2108.06209"><strong>w2v-BERT: Combining Contrastive Learning and Masked Language Modeling for Self-Supervised Speech Pre-Training</strong></a></td><td align="center">2021</td><td>arXiv</td><td>—</td></tr>
-  <tr><th colspan="4" align="left"><a name="video-tokenizers"></a><h5>Video Tokenizers</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="video-tokenizers"></a><h3>Video Tokenizers</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://openreview.net/forum?id=JEYWpFGzvn"><strong>InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression</strong></a></td><td align="center">2026</td><td>ICLR</td><td><a href="https://github.com/YWolfeee/InfoTok">Code</a></td></tr>
   <tr><td><a href="https://proceedings.mlr.press/v306/atanov26a.html"><strong>VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization</strong></a></td><td align="center">2026</td><td>ICML</td><td><a href="https://github.com/apple-aiml-research/ml-videoflextok">Code</a> · <a href="https://videoflextok.epfl.ch/">Project</a> · <a href="https://huggingface.co/EPFL-VILAB/videoflextok_d18_d28">Models</a></td></tr>
@@ -348,7 +339,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://doi.org/10.1109/CVPR52688.2022.01042"><strong>High-Resolution Image Synthesis with Latent Diffusion Models</strong></a></td><td align="center">2022</td><td>CVPR</td><td><a href="https://github.com/CompVis/latent-diffusion">Code</a></td></tr>
   <tr><td><a href="https://doi.org/10.1109/CVPR46437.2021.01268"><strong>Taming Transformers for High-Resolution Image Synthesis</strong></a></td><td align="center">2021</td><td>CVPR</td><td><a href="https://github.com/CompVis/taming-transformers">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2104.10157"><strong>VideoGPT: Video Generation using VQ-VAE and Transformers</strong></a></td><td align="center">2021</td><td>arXiv</td><td><a href="https://github.com/wilson1yan/VideoGPT">Code</a> · <a href="https://wilson1yan.github.io/videogpt/index.html">Project</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="joint-audio-video-tokenization"></a><h5>Joint Audio-Video Tokenization</h5></th></tr>
+  <tr><th colspan="4" align="left"><a name="joint-audio-video-tokenization"></a><h3>Joint Audio-Video Tokenization</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2606.30811"><strong>AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation</strong></a></td><td align="center">2026</td><td>ECCV</td><td><a href="https://github.com/hkust-longgroup/AVTok">Code</a> · <a href="https://hkust-longgroup.github.io/AVTok/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2503.23377"><strong>JavisDiT: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization</strong></a></td><td align="center">2026</td><td>ICLR</td><td><a href="https://github.com/JavisVerse/JavisDiT">Code</a> · <a href="https://javisverse.github.io/JavisDiT-page/">Project</a> · <a href="https://huggingface.co/datasets/JavisVerse/JavisBench">Data</a></td></tr>
@@ -362,7 +353,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://doi.org/10.1109/cvpr52729.2023.01457"><strong>ImageBind: One Embedding Space To Bind Them All</strong></a></td><td align="center">2023</td><td>CVPR</td><td><a href="https://github.com/facebookresearch/ImageBind">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2305.11172"><strong>ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities</strong></a></td><td align="center">2023</td><td>arXiv</td><td><a href="https://github.com/OFA-Sys/ONE-PEACE">Code</a></td></tr>
   <tr><th colspan="4" align="left"><a name="awesome-datasets"></a><h3>Awesome Datasets</h3></th></tr>
-  <tr><th colspan="4" align="left"><a name="joint-audio-video-corpora"></a><h4>Joint Audio-Video Corpora</h4></th></tr>
+  <tr><th colspan="4" align="left"><a name="joint-audio-video-corpora"></a><h3>Joint Audio-Video Corpora</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://doi.org/10.1109/iccv51701.2025.01869"><strong>What&#x27;s Making That Sound Right Now? Video-centric Audio-Visual Localization</strong></a></td><td align="center">2025</td><td>ICCV</td><td><a href="https://hahyeon610.github.io/Video-centric_Audio_Visual_Localization/">Project</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2404.14381"><strong>Tavgbench: Benchmarking text to audible-video generation</strong></a></td><td align="center">2024</td><td>ACM MM</td><td><a href="https://github.com/opennlplab/tavgbench">Code</a></td></tr>
@@ -380,7 +371,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/1804.03160"><strong>The Sound of Pixels</strong></a></td><td align="center">2018</td><td>ECCV</td><td><a href="https://github.com/hangzhaomit/Sound-of-Pixels">Code</a></td></tr>
   <tr><td><a href="https://doi.org/10.1109/ICASSP.2017.7952261"><strong>Audio Set: An Ontology and Human-Labeled Dataset for Audio Events</strong></a></td><td align="center">2017</td><td>ICASSP</td><td><a href="https://research.google.com/audioset/">Data</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/1512.08512"><strong>Visually Indicated Sounds</strong></a></td><td align="center">2016</td><td>CVPR</td><td>—</td></tr>
-  <tr><th colspan="4" align="left"><a name="video-pretraining"></a><h4>Video Pretraining</h4></th></tr>
+  <tr><th colspan="4" align="left"><a name="video-pretraining"></a><h3>Video Pretraining</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2307.06942"><strong>InternVid: A Large-Scale Video-Text Dataset for Multimodal Understanding and Generation</strong></a></td><td align="center">2024</td><td>ICLR</td><td><a href="https://github.com/OpenGVLab/InternVideo/tree/main/Data/InternVid">Code</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2402.19479"><strong>Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers</strong></a></td><td align="center">2024</td><td>CVPR</td><td><a href="https://github.com/snap-research/panda-70m">Code</a> · <a href="https://snap-research.github.io/Panda-70M">Project</a> · <a href="https://github.com/snap-research/Panda-70M">Data</a></td></tr>
@@ -389,7 +380,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/1705.06950"><strong>The Kinetics Human Action Video Dataset</strong></a></td><td align="center">2017</td><td>arXiv</td><td><a href="https://www.robots.ox.ac.uk/~vgg/data/kinetics/">Data</a></td></tr>
   <tr><td><a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Caba_Heilbron_ActivityNet_A_Large-Scale_2015_CVPR_paper.html"><strong>ActivityNet: A Large-Scale Video Benchmark for Human Activity Understanding</strong></a></td><td align="center">2015</td><td>CVPR</td><td><a href="http://activity-net.org/">Data</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/1212.0402"><strong>UCF101: A dataset of 101 human actions classes from videos in the wild</strong></a></td><td align="center">2012</td><td>arXiv</td><td><a href="https://www.crcv.ucf.edu/data/UCF101.php">Data</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="audio-pretraining"></a><h4>Audio Pretraining</h4></th></tr>
+  <tr><th colspan="4" align="left"><a name="audio-pretraining"></a><h3>Audio Pretraining</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2303.17395"><strong>WavCaps: A ChatGPT-Assisted Weakly-Labelled Audio Captioning Dataset for Audio-Language Multimodal Research</strong></a></td><td align="center">2024</td><td>IEEE/ACM Transactions on Audio, Speech, and Language Processing</td><td><a href="https://github.com/xinhaomei/wavcaps">Code</a> · <a href="https://huggingface.co/datasets/cvssp/WavCaps">Data</a></td></tr>
   <tr><td><a href="https://doi.org/10.21437/interspeech.2021-1965"><strong>GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio</strong></a></td><td align="center">2021</td><td>Interspeech</td><td><a href="https://github.com/SpeechColab/GigaSpeech">Code</a> · <a href="https://huggingface.co/datasets/speechcolab/gigaspeech">Data</a></td></tr>
@@ -398,7 +389,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://doi.org/10.1109/ICASSP.2015.7178964"><strong>LibriSpeech: An ASR Corpus Based on Public Domain Audio Books</strong></a></td><td align="center">2015</td><td>ICASSP</td><td><a href="https://www.openslr.org/12">Data</a></td></tr>
   <tr><td><a href="https://ismir2009.ismir.net/proceedings/OS5-5.pdf"><strong>Evaluation of Algorithms Using Games: The Case of Music Tagging</strong></a></td><td align="center">2009</td><td>Proc. International Society for Music Information Retrieval Conference (ISMIR)</td><td>—</td></tr>
   <tr><th colspan="4" align="left"><a name="awesome-benchmarks-and-metrics"></a><h3>Awesome Benchmarks and Metrics</h3></th></tr>
-  <tr><th colspan="4" align="left"><a name="benchmarks"></a><h4>Benchmarks</h4></th></tr>
+  <tr><th colspan="4" align="left"><a name="benchmarks"></a><h3>Benchmarks</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2503.23377"><strong>JavisDiT: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization</strong></a></td><td align="center">2026</td><td>ICLR</td><td><a href="https://github.com/JavisVerse/JavisDiT">Code</a> · <a href="https://javisverse.github.io/JavisDiT-page/">Project</a> · <a href="https://huggingface.co/datasets/JavisVerse/JavisBench">Data</a></td></tr>
   <tr><td><a href="https://proceedings.mlr.press/v306/cao26v.html"><strong>T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation</strong></a></td><td align="center">2026</td><td>ICML</td><td>—</td></tr>
@@ -421,7 +412,7 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
   <tr><td><a href="https://arxiv.org/abs/1901.09107"><strong>Audio Visual Scene-Aware Dialog</strong></a></td><td align="center">2019</td><td>CVPR</td><td>—</td></tr>
   <tr><td><a href="https://doi.org/10.18653/v1/N19-1011"><strong>AudioCaps: Generating Captions for Audios in the Wild</strong></a></td><td align="center">2019</td><td>NAACL</td><td><a href="https://audiocaps.github.io/">Data</a></td></tr>
   <tr><td><a href="https://doi.org/10.1007/978-3-030-01216-8_16"><strong>Audio-Visual Event Localization in Unconstrained Videos</strong></a></td><td align="center">2018</td><td>ECCV</td><td><a href="https://github.com/YapengTian/AVE-ECCV18">Code</a></td></tr>
-  <tr><th colspan="4" align="left"><a name="metrics"></a><h4>Metrics</h4></th></tr>
+  <tr><th colspan="4" align="left"><a name="metrics"></a><h3>Metrics</h3></th></tr>
   <tr><th scope="col" align="left">Title</th><th scope="col" align="center">Year</th><th scope="col" align="left">Venue</th><th scope="col" align="left">Resources</th></tr>
   <tr><td><a href="https://arxiv.org/abs/2503.23377"><strong>JavisDiT: Joint Audio-Video Diffusion Transformer with Hierarchical Spatio-Temporal Prior Synchronization</strong></a></td><td align="center">2026</td><td>ICLR</td><td><a href="https://github.com/JavisVerse/JavisDiT">Code</a> · <a href="https://javisverse.github.io/JavisDiT-page/">Project</a> · <a href="https://huggingface.co/datasets/JavisVerse/JavisBench">Data</a></td></tr>
   <tr><td><a href="https://arxiv.org/abs/2502.05139"><strong>Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound</strong></a></td><td align="center">2025</td><td>arXiv</td><td><a href="https://github.com/facebookresearch/audiobox-aesthetics">Code</a></td></tr>
