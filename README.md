@@ -1,5 +1,12 @@
 <h1 align="center">Awesome Audio-Video Unification</h1>
 
+<!-- At release, link the arXiv and Project Page badges to their public URLs and replace the Visits placeholder with a counter for the published repository. -->
+<p align="center">
+  <img src="src/badge-arxiv.svg" alt="arXiv: coming soon">
+  <img src="src/badge-project.svg" alt="Project Page: coming soon">
+  <img src="src/badge-visits.svg" alt="Visits: pending">
+</p>
+
 <p align="center">
   <a href="https://hkust.edu.hk/"><img src="src/hkust-color.png" alt="HKUST" height="80"></a>
   &emsp;
