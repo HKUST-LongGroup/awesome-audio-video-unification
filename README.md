@@ -522,10 +522,11 @@ The catalog covers all 354 references cited in the survey. Each taxonomy leaf is
 If this survey is useful to your work, please cite it. For an individual model, dataset, or benchmark, cite the original work listed in its table.
 
 ```bibtex
-@misc{pham2026unifiedav,
-  title={Unifying Audio-Video Understanding and Generation: Foundations, Taxonomies, and Architectures},
-  author={Pham, Kien T. and He, Zhenqi and Wang, Yanghao and Chen, Qifeng and Chen, Long},
-  year={2026},
-  note={Survey manuscript}
+@misc{2611.awesome-audio-video-unification,
+      title={Unifying Audio-Video Understanding and Generation: Foundations, Taxonomies, and Architectures},
+      author={Kien T. Pham and Zhenqi He and Yanghao Wang and Qifeng Chen and Long Chen},
+      year={2026},
+      publisher={alphaXiv},
+      url={https://www.alphaxiv.org/abs/2611.awesome-audio-video-unification},
 }
 ```
