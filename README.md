@@ -1,8 +1,11 @@
 <h1 align="center">Awesome Audio-Video Unification</h1>
 
-<!-- At release, link the arXiv badge to its public URL. Keep the Visits counter path unchanged to preserve its total. -->
+<!-- Keep the Visits counter path unchanged to preserve its total. -->
 <p align="center">
+  <a href="https://www.alphaxiv.org/abs/2611.awesome-audio-video-unification"><img src="src/badge-alphaxiv.svg" alt="Read the survey on alphaXiv"></a>
+  <!-- At release, update the badge text, link it to the public arXiv URL, and uncomment.
   <img src="src/badge-arxiv.svg" alt="arXiv: coming soon">
+  -->
   <a href="https://av-unification-survey.tkpham.me"><img src="src/badge-project.svg" alt="Visit the survey project page"></a>
   <img src="https://hits.sh/tkpham.me/awesome-audio-video-unification.svg?style=flat-square&amp;label=Visits&amp;color=2c7a7b&amp;labelColor=41464e" alt="Approximate README visits">
 </p>
@@ -21,7 +24,7 @@
 
 - **Unifying Audio-Video Understanding and Generation: Foundations, Taxonomies, and Architectures**  
   [Kien T. Pham](https://tkpham.me/) · Zhenqi He · Yanghao Wang · Qifeng Chen · Long Chen  
-  [📖 Survey](paper/arxiv.pdf) · [Project Page](https://av-unification-survey.tkpham.me) · [🗂️ Complete Taxonomy](src/taxonomy_complete.png) · [✒️ BibTeX](#bibtex)
+  [📖 Survey PDF](paper/arxiv.pdf) · [alphaXiv](https://www.alphaxiv.org/abs/2611.awesome-audio-video-unification) · [Project Page](https://av-unification-survey.tkpham.me) · [🗂️ Complete Taxonomy](src/taxonomy_complete.png) · [✒️ BibTeX](#bibtex)
 - **Three research pillars:** [Generation](#audio-video-generation) synthesizes one or both streams; [Understanding](#audio-video-understanding) interprets their joint content; [Unified Architectures](#unified-architectures) connect perception and synthesis.
 - **Shared foundations:** [Tokenization](#audio-video-tokenization), [Datasets](#awesome-datasets), and [Evaluation](#awesome-benchmarks-and-metrics) cover the representations, training data, and protocols used across those pillars.
 
